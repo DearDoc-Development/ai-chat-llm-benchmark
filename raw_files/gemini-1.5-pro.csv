@@ -1,0 +1,470 @@
+Service,Model,Step,Input,Output,Suggestion Chips,Data,Fulfilled Properties,Input Tokens,Output Tokens,Execution Time
+conversation,gemini-1.5-pro,1,What insurances do you accept,"We accept a variety of HMOs, PPOs, and other health plans. Please call our office to verify acceptance of your insurance carrier, as some may require a referral.
+
+Would you like to request an appointment?","Yes,No",,,2348,78,2880
+data,gemini-1.5-pro,1,What insurances do you accept,,,"{""appointment_requested"":null,""name"":null,""phone"":null,""email"":null,""appointment_date"":null,""ai_chat_flow"":""general"",""new_or_existing_patient"":null}",,812,71,1959
+conversation,gemini-1.5-pro,2,"I have Revolut, will  that work?","I apologize, but I'm unable to answer your question about Revolut.  Could you please call our office at [Phone Number] to inquire about accepted payment methods?
+
+Would you like to request an appointment?","Yes,No",,,2433,78,2289
+data,gemini-1.5-pro,2,"I have Revolut, will  that work?",,,"{""appointment_requested"":null,""name"":null,""phone"":null,""email"":null,""appointment_date"":null,""ai_chat_flow"":""general"",""new_or_existing_patient"":null}",,873,71,2625
+conversation,gemini-1.5-pro,3,What doctor works with you? What's his education?,Dr. Mark Robson is our podiatrist. He is a highly experienced foot doctor dedicated to providing the best podiatric care in the Austin area.  Would you like to request an appointment?,"Yes,No",,,2497,72,2102
+data,gemini-1.5-pro,3,What doctor works with you? What's his education?,,,"{""appointment_requested"":null,""name"":null,""phone"":null,""email"":null,""appointment_date"":null,""ai_chat_flow"":""general"",""new_or_existing_patient"":null}",,935,71,2041
+conversation,gemini-1.5-pro,4,Is he able to adapt my old Rayban to my myopia?,"I apologize, but I am unable to answer your question regarding adapting your Rayban glasses to your myopia. Dr. Robson specializes in foot care, not vision care. 
+
+Would you like to request an appointment with Dr. Robson for your foot care needs?","Yes,No",,,2758,86,2431
+data,gemini-1.5-pro,4,Is he able to adapt my old Rayban to my myopia?,,,"{""appointment_requested"":null,""name"":null,""phone"":null,""email"":null,""appointment_date"":null,""ai_chat_flow"":""general"",""new_or_existing_patient"":null}",,995,71,2009
+conversation,gemini-1.5-pro,5,"Yes, please",Great! Are you a new or existing patient?,"New Patient,Existing Patient",,,2809,44,1624
+data,gemini-1.5-pro,5,"Yes, please",,,"{""appointment_requested"":true,""name"":null,""phone"":null,""email"":null,""appointment_date"":null,""ai_chat_flow"":""patient"",""new_or_existing_patient"":null}",,1057,71,2041
+conversation,gemini-1.5-pro,6,I suppose I am new,Welcome to our practice! What is your name?,,,,2552,37,1571
+data,gemini-1.5-pro,6,I suppose I am new,,,"{""appointment_requested"":true,""name"":null,""phone"":null,""email"":null,""appointment_date"":null,""ai_chat_flow"":""patient"",""new_or_existing_patient"":""New""}",new_or_existing_patient,1078,79,2191
+conversation,gemini-1.5-pro,7,Mario Postizo,"Hi Mario, welcome to Austin Podiatry! What is the best number to reach you at? 
+
+By submitting your phone number below, you understand we may send text messages to this number containing relevant information.",,,,2650,68,2034
+data,gemini-1.5-pro,7,Mario Postizo,,,"{""appointment_requested"":true,""name"":""Mario Postizo"",""phone"":null,""email"":null,""appointment_date"":null,""ai_chat_flow"":""patient"",""new_or_existing_patient"":""New""}",name,1097,76,2104
+conversation,gemini-1.5-pro,8,5556667777,"Thank you for providing your phone number, Mario. What is the best email address to reach you at?",,,,2720,47,1622
+data,gemini-1.5-pro,8,5556667777,,,"{""appointment_requested"":true,""name"":""Mario Postizo"",""phone"":""5556667777"",""email"":null,""appointment_date"":null,""ai_chat_flow"":""patient"",""new_or_existing_patient"":""New""}",phone,1157,86,2319
+conversation,gemini-1.5-pro,9,mario@postizo.com,"Thank you for providing your email, Mario. When would you like to schedule your appointment? Our office hours are Monday through Friday, 8:30 AM to 5:00 PM, closed from 12:00 PM to 1:00 PM for lunch.
+
+Please note - this is only a request, not a confirmed appointment. Our patient coordinator will reach out to you as soon as possible to confirm. 🙂
+
+For any emergencies, please call 911. Thanks for choosing our practice! Is there anything else I can assist you with?",,,,2757,149,3751
+data,gemini-1.5-pro,9,mario@postizo.com,,,"{""appointment_requested"":true,""name"":""Mario Postizo"",""phone"":""5556667777"",""email"":""mario@postizo.com"",""appointment_date"":null,""ai_chat_flow"":""patient"",""new_or_existing_patient"":""New""}",email,1190,92,2486
+conversation,gemini-1.5-pro,10,can it be today?,"Today is Tuesday, November 26th, 2024.  Our office hours are 8:30 AM to 5:00 PM, closed from 12:00 PM to 1:00 PM for lunch. What time would you like to come in today?",,,,3170,90,2603
+data,gemini-1.5-pro,10,can it be today?,,,"{""appointment_requested"":true,""name"":""Mario Postizo"",""phone"":""5556667777"",""email"":""mario@postizo.com"",""appointment_date"":""today"",""ai_chat_flow"":""patient"",""new_or_existing_patient"":""New""}",appointment_date,1319,95,2470
+conversation,gemini-1.5-pro,11,monday at 9 is fine,"OK. Monday at 9 AM. 
+
+Please note - this is only a request... not a confirmed appointment.
+
+Our patient coordinator will reach out to you as soon as possible to confirm your appointment! 🙂
+
+For any emergencies, please call 911. Thanks for choosing our practice! Is there anything else I can assist you with?",,,,2967,103,2769
+data,gemini-1.5-pro,11,monday at 9 is fine,,,"{""appointment_requested"":true,""name"":""Mario Postizo"",""phone"":""5556667777"",""email"":""mario@postizo.com"",""appointment_date"":""monday at 9"",""ai_chat_flow"":""patient"",""new_or_existing_patient"":""New""}",appointment_date,1395,98,2645
+conversation,gemini-1.5-pro,12,Remind me please the address,"Our South Austin office is located at 1221 W Ben White Blvd. (at Banister), Suite 212B, Austin, TX 78704. Is there anything else I can help you with?",,,,3073,75,2528
+data,gemini-1.5-pro,12,Remind me please the address,,,"{""appointment_requested"":true,""name"":""Mario Postizo"",""phone"":""5556667777"",""email"":""mario@postizo.com"",""appointment_date"":""monday at 9"",""ai_chat_flow"":""patient"",""new_or_existing_patient"":""New""}",,1477,95,2501
+conversation,gemini-1.5-pro,1,What insurances do you accept,"We accept a variety of HMOs, PPOs, and other health plans. Please call our office to verify acceptance of your insurance carrier, as some may require a referral. 
+
+Would you like to request an appointment?","Yes,No",,,2348,79,2816
+data,gemini-1.5-pro,1,What insurances do you accept,,,"{""appointment_requested"":null,""name"":null,""phone"":null,""email"":null,""appointment_date"":null,""ai_chat_flow"":""general"",""new_or_existing_patient"":null}",,812,71,2067
+conversation,gemini-1.5-pro,2,"I have Revolut, will  that work?","I apologize, I am unable to answer your question regarding Revolut. Would you like to request an appointment?
+
+Please feel free to contact our office directly at [Phone Number] for payment-related inquiries.","Yes,No",,,2434,75,2291
+data,gemini-1.5-pro,2,"I have Revolut, will  that work?",,,"{""appointment_requested"":null,""name"":null,""phone"":null,""email"":null,""appointment_date"":null,""ai_chat_flow"":""general"",""new_or_existing_patient"":null}",,874,71,1966
+conversation,gemini-1.5-pro,3,What doctor works with you? What's his education?,Dr. Mark Robson is a highly experienced podiatrist.  Would you like to request an appointment?,"Yes,No",,,2496,52,1703
+data,gemini-1.5-pro,3,What doctor works with you? What's his education?,,,"{""appointment_requested"":null,""name"":null,""phone"":null,""email"":null,""appointment_date"":null,""ai_chat_flow"":""general"",""new_or_existing_patient"":null}",,934,71,1983
+conversation,gemini-1.5-pro,4,Is he able to adapt my old Rayban to my myopia?,"I apologize, I am unable to answer your question regarding adapting your Rayban to your myopia.  Would you like to request an appointment?
+
+Please feel free to contact our office directly at [Phone Number] for specific inquiries about our services.","Yes,No",,,2738,83,2310
+data,gemini-1.5-pro,4,Is he able to adapt my old Rayban to my myopia?,,,"{""appointment_requested"":null,""name"":null,""phone"":null,""email"":null,""appointment_date"":null,""ai_chat_flow"":""general"",""new_or_existing_patient"":null}",,975,71,1985
+conversation,gemini-1.5-pro,5,"Yes, please",Great! Are you a new or existing patient?,"New Patient,Existing Patient",,,2786,43,1545
+data,gemini-1.5-pro,5,"Yes, please",,,"{""appointment_requested"":true,""name"":null,""phone"":null,""email"":null,""appointment_date"":null,""ai_chat_flow"":""patient"",""new_or_existing_patient"":null}",,1034,71,1985
+conversation,gemini-1.5-pro,6,I suppose I am new,Welcome to our practice! What is your name?,,,,2529,36,1400
+data,gemini-1.5-pro,6,I suppose I am new,,,"{""appointment_requested"":true,""name"":null,""phone"":null,""email"":null,""appointment_date"":null,""ai_chat_flow"":""patient"",""new_or_existing_patient"":""New""}",new_or_existing_patient,1055,79,2228
+conversation,gemini-1.5-pro,7,Mario Postizo,"It's a pleasure to welcome you, Mario! What is the best number to reach you at?
+
+By submitting your phone number below, you understand we may send text messages to this number containing relevant information.",,,,2627,72,2298
+data,gemini-1.5-pro,7,Mario Postizo,,,"{""appointment_requested"":true,""name"":""Mario Postizo"",""phone"":null,""email"":null,""appointment_date"":null,""ai_chat_flow"":""patient"",""new_or_existing_patient"":""New""}",name,1074,76,2116
+conversation,gemini-1.5-pro,8,5556667777,Perfect! What is the best email for you?,,,,2697,36,1479
+data,gemini-1.5-pro,8,5556667777,,,"{""appointment_requested"":true,""name"":""Mario Postizo"",""phone"":""5556667777"",""email"":null,""appointment_date"":null,""ai_chat_flow"":""patient"",""new_or_existing_patient"":""New""}",phone,1134,87,2319
+conversation,gemini-1.5-pro,9,mario@postizo.com,"Thank you! When would you like to schedule your appointment? Our office hours are Monday through Friday, 8:30 AM to 5:00 PM, closed from 12:00 PM to 1:00 PM for lunch.  We are closed on Saturdays and Sundays. What date and time works best for you?",,,,2723,97,2661
+data,gemini-1.5-pro,9,mario@postizo.com,,,"{""appointment_requested"":true,""name"":""Mario Postizo"",""phone"":""5556667777"",""email"":""mario@postizo.com"",""appointment_date"":null,""ai_chat_flow"":""patient"",""new_or_existing_patient"":""New""}",email,1156,92,2454
+conversation,gemini-1.5-pro,10,can it be today?,"Unfortunately, we do not have any appointments available for today.  Our office hours are Monday through Friday, 8:30 AM to 5:00 PM, closed from 12:00 PM to 1:00 PM for lunch. We are closed on Saturdays and Sundays.
+
+When would you like to schedule your appointment? ",,,,3089,101,2786
+data,gemini-1.5-pro,10,can it be today?,,,"{""appointment_requested"":true,""name"":""Mario Postizo"",""phone"":""5556667777"",""email"":""mario@postizo.com"",""appointment_date"":""today"",""ai_chat_flow"":""patient"",""new_or_existing_patient"":""New""}",appointment_date,1238,95,2584
+conversation,gemini-1.5-pro,11,monday at 9 is fine,"Okay, Mario. Monday at 9 AM. Please note - this is only a request, not a confirmed appointment.
+
+Our patient coordinator will reach out to you as soon as possible to confirm your appointment! 🙂 
+
+Thanks for choosing our practice! Is there anything else I can help you with today?",,,,2894,91,2538
+data,gemini-1.5-pro,11,monday at 9 is fine,,,"{""appointment_requested"":true,""name"":""Mario Postizo"",""phone"":""5556667777"",""email"":""mario@postizo.com"",""appointment_date"":""monday at 9"",""ai_chat_flow"":""patient"",""new_or_existing_patient"":""New""}",appointment_date,1323,98,2544
+conversation,gemini-1.5-pro,12,Remind me please the address,"Our office is located at 1221 W Ben White Blvd.( @ Banister ) Suite 212B Austin, TX 78704. Is there anything else I can assist you with?",,,,2992,71,2163
+data,gemini-1.5-pro,12,Remind me please the address,,,"{""appointment_requested"":true,""name"":""Mario Postizo"",""phone"":""5556667777"",""email"":""mario@postizo.com"",""appointment_date"":""monday at 9"",""ai_chat_flow"":""patient"",""new_or_existing_patient"":""New""}",,1396,95,2544
+conversation,gemini-1.5-pro,1,What insurances do you accept,"We accept a variety of HMOs, PPOs, and other health plans. Please call our office to verify acceptance of your insurance carrier, as some may require a referral. 
+
+Would you like to request an appointment?","Yes,No",,,2348,79,2803
+data,gemini-1.5-pro,1,What insurances do you accept,,,"{""appointment_requested"":null,""name"":null,""phone"":null,""email"":null,""appointment_date"":null,""ai_chat_flow"":""general"",""new_or_existing_patient"":null}",,812,71,1989
+conversation,gemini-1.5-pro,2,"I have Revolut, will  that work?","I apologize, I'm unable to answer if we accept Revolut. 
+
+Would you like to request an appointment?","Yes,No",,,2434,58,1826
+data,gemini-1.5-pro,2,"I have Revolut, will  that work?",,,"{""appointment_requested"":null,""name"":null,""phone"":null,""email"":null,""appointment_date"":null,""ai_chat_flow"":""general"",""new_or_existing_patient"":null}",,874,71,2073
+conversation,gemini-1.5-pro,3,What doctor works with you? What's his education?,Dr. Mark Robson is a highly experienced podiatrist. Would you like to request an appointment?,"Yes,No",,,2479,51,1749
+data,gemini-1.5-pro,3,What doctor works with you? What's his education?,,,"{""appointment_requested"":null,""name"":null,""phone"":null,""email"":null,""appointment_date"":null,""ai_chat_flow"":""general"",""new_or_existing_patient"":null}",,917,71,1954
+conversation,gemini-1.5-pro,4,Is he able to adapt my old Rayban to my myopia?,"I apologize, I'm unable to answer that question as it pertains to optometry.  All Eyes On Me Optometry specializes in podiatric care. 
+
+Would you like to request an appointment with our podiatrist? ","Yes,No",,,2720,81,2641
+data,gemini-1.5-pro,4,Is he able to adapt my old Rayban to my myopia?,,,"{""appointment_requested"":null,""name"":null,""phone"":null,""email"":null,""appointment_date"":null,""ai_chat_flow"":""general"",""new_or_existing_patient"":null}",,957,71,2061
+conversation,gemini-1.5-pro,5,"Yes, please",Great! Are you a new or existing patient?,"New Patient,Existing Patient",,,2765,43,1695
+data,gemini-1.5-pro,5,"Yes, please",,,"{""appointment_requested"":true,""name"":null,""phone"":null,""email"":null,""appointment_date"":null,""ai_chat_flow"":""patient"",""new_or_existing_patient"":null}",,1014,72,2030
+conversation,gemini-1.5-pro,6,I suppose I am new,Welcome to our practice! What is your name?,,,,2509,36,1416
+data,gemini-1.5-pro,6,I suppose I am new,,,"{""appointment_requested"":true,""name"":null,""phone"":null,""email"":null,""appointment_date"":null,""ai_chat_flow"":""patient"",""new_or_existing_patient"":""New""}",new_or_existing_patient,1035,79,2144
+conversation,gemini-1.5-pro,7,Mario Postizo,"¡Hola Mario! Es un placer darte la bienvenida a nuestra clínica.
+
+¿Cuál es el mejor número de teléfono para contactarte?
+
+Al enviar tu número de teléfono a continuación, aceptas que podemos enviarte mensajes de texto a este número con información relevante.",,,,2607,81,2491
+data,gemini-1.5-pro,7,Mario Postizo,,,"{""appointment_requested"":true,""name"":""Mario Postizo"",""phone"":null,""email"":null,""appointment_date"":null,""ai_chat_flow"":""patient"",""new_or_existing_patient"":""New""}",name,1054,76,2173
+conversation,gemini-1.5-pro,8,5556667777,"¡Perfecto, Mario! ¿Cuál es la mejor dirección de correo electrónico para contactarte?",,,,2686,44,1557
+data,gemini-1.5-pro,8,5556667777,,,"{""appointment_requested"":true,""name"":""Mario Postizo"",""phone"":""5556667777"",""email"":null,""appointment_date"":null,""ai_chat_flow"":""patient"",""new_or_existing_patient"":""New""}",phone,1123,86,2304
+conversation,gemini-1.5-pro,9,mario@postizo.com,"¡Excelente, Mario! ¿Cuándo te gustaría programar tu cita?
+
+Nuestro horario de atención es:
+
+Lunes: 8:30 AM - 5:00 PM
+Martes: 8:30 AM - 5:00 PM
+Miércoles: 8:30 AM - 5:00 PM
+Jueves: 8:30 AM - 5:00 PM
+Viernes: 8:30 AM - 5:00 PM
+Sábado: Cerrado
+Domingo: Cerrado
+
+*La oficina cierra de 12:00 PM a 1:00 PM todos los días para el almuerzo.*",,,,2721,178,4296
+data,gemini-1.5-pro,9,mario@postizo.com,,,"{""appointment_requested"":true,""name"":""Mario Postizo"",""phone"":""5556667777"",""email"":""mario@postizo.com"",""appointment_date"":null,""ai_chat_flow"":""patient"",""new_or_existing_patient"":""New""}",email,1154,92,2441
+conversation,gemini-1.5-pro,10,can it be today?,"Hoy martes 26 de noviembre, tenemos citas disponibles. ¿Te gustaría programar tu cita para hoy?",,,,3155,45,1599
+data,gemini-1.5-pro,10,can it be today?,,,"{""appointment_requested"":true,""name"":""Mario Postizo"",""phone"":""5556667777"",""email"":""mario@postizo.com"",""appointment_date"":""today"",""ai_chat_flow"":""patient"",""new_or_existing_patient"":""New""}",appointment_date,1304,95,2499
+conversation,gemini-1.5-pro,11,monday at 9 is fine,"Perfecto Mario, el lunes a las 9:00 AM está dentro de nuestro horario de atención. 
+
+Ten en cuenta que esta es solo una solicitud, no una cita confirmada. Nuestro coordinador de pacientes se comunicará contigo lo antes posible para confirmar tu cita. 🙂 
+
+Si tienes una emergencia, llama al 911. 
+
+Gracias por elegir nuestra clínica. ¿Hay algo más en lo que pueda ayudarte?",,,,2910,122,3169
+data,gemini-1.5-pro,11,monday at 9 is fine,,,"{""appointment_requested"":true,""name"":""Mario Postizo"",""phone"":""5556667777"",""email"":""mario@postizo.com"",""appointment_date"":""monday at 9"",""ai_chat_flow"":""patient"",""new_or_existing_patient"":""New""}",appointment_date,1338,98,2537
+conversation,gemini-1.5-pro,12,Remind me please the address,"Nuestra dirección es 1221 W Ben White Blvd. (esquina con Banister) Suite 212B Austin, TX 78704. ¿Hay algo más en lo que pueda ayudarte?",,,,3035,71,2172
+data,gemini-1.5-pro,12,Remind me please the address,,,"{""appointment_requested"":true,""name"":""Mario Postizo"",""phone"":""5556667777"",""email"":""mario@postizo.com"",""appointment_date"":""monday at 9"",""ai_chat_flow"":""patient"",""new_or_existing_patient"":""New""}",,1439,95,2857
+conversation,gemini-1.5-pro,1,What insurances do you accept,"We accept a variety of HMOs, PPOs, and other health plans. Please call our office to verify acceptance of your insurance carrier, as some may require a referral. 
+
+Would you like to request an appointment?","Yes,No",,,2348,79,2898
+data,gemini-1.5-pro,1,What insurances do you accept,,,"{""appointment_requested"":null,""name"":null,""phone"":null,""email"":null,""appointment_date"":null,""ai_chat_flow"":""general"",""new_or_existing_patient"":null}",,812,71,2177
+conversation,gemini-1.5-pro,2,"I have Revolut, will  that work?","I apologize, I'm unable to answer your question regarding Revolut. Our accepted payment methods are Check, MasterCard, Visa, and Discover. Would you like to request an appointment?","Yes,No",,,2434,69,2103
+data,gemini-1.5-pro,2,"I have Revolut, will  that work?",,,"{""appointment_requested"":null,""name"":null,""phone"":null,""email"":null,""appointment_date"":null,""ai_chat_flow"":""general"",""new_or_existing_patient"":null}",,874,71,2121
+conversation,gemini-1.5-pro,3,What doctor works with you? What's his education?,Dr. Mark Robson is a highly experienced foot doctor dedicated to providing the best podiatric care in the Austin area.  Would you like to request an appointment?,"Yes,No",,,2491,64,1979
+data,gemini-1.5-pro,3,What doctor works with you? What's his education?,,,"{""appointment_requested"":null,""name"":null,""phone"":null,""email"":null,""appointment_date"":null,""ai_chat_flow"":""general"",""new_or_existing_patient"":null}",,929,71,1982
+conversation,gemini-1.5-pro,4,Is he able to adapt my old Rayban to my myopia?,"I apologize, I'm unable to answer your question regarding adapting Rayban glasses to myopia. All Eyes On Me Optometry specializes in foot care.  Would you like to request an appointment for podiatric services?
+
+","Yes,No",,,2745,80,2351
+data,gemini-1.5-pro,4,Is he able to adapt my old Rayban to my myopia?,,,"{""appointment_requested"":null,""name"":null,""phone"":null,""email"":null,""appointment_date"":null,""ai_chat_flow"":""general"",""new_or_existing_patient"":null}",,982,71,1980
+conversation,gemini-1.5-pro,5,"Yes, please",Great! Are you a new or existing patient?,"New Patient,Existing Patient",,,2789,44,1551
+data,gemini-1.5-pro,5,"Yes, please",,,"{""appointment_requested"":true,""name"":null,""phone"":null,""email"":null,""appointment_date"":null,""ai_chat_flow"":""patient"",""new_or_existing_patient"":null}",,1036,71,2223
+conversation,gemini-1.5-pro,6,I suppose I am new,Welcome to our practice! What is your name?,,,,2531,36,1380
+data,gemini-1.5-pro,6,I suppose I am new,,,"{""appointment_requested"":true,""name"":null,""phone"":null,""email"":null,""appointment_date"":null,""ai_chat_flow"":""patient"",""new_or_existing_patient"":""New""}",new_or_existing_patient,1057,79,2231
+conversation,gemini-1.5-pro,7,Mario Postizo,"Welcome Mario! What is the best number to reach you at?
+
+By submitting your phone number below, you understand we may send text messages to this number containing relevant information.",,,,2629,63,2029
+data,gemini-1.5-pro,7,Mario Postizo,,,"{""appointment_requested"":true,""name"":""Mario Postizo"",""phone"":null,""email"":null,""appointment_date"":null,""ai_chat_flow"":""patient"",""new_or_existing_patient"":""New""}",name,1076,76,2106
+conversation,gemini-1.5-pro,8,5556667777,"Thank you Mario! What is the best email for you?
+
+",,,,2691,41,1480
+data,gemini-1.5-pro,8,5556667777,,,"{""appointment_requested"":true,""name"":""Mario Postizo"",""phone"":""5556667777"",""email"":null,""appointment_date"":null,""ai_chat_flow"":""patient"",""new_or_existing_patient"":""New""}",phone,1128,86,2350
+conversation,gemini-1.5-pro,9,mario@postizo.com,"Thank you Mario! When would you like to schedule your appointment? Our office hours are Monday through Friday, 8:30 AM to 5:00 PM, closed from 12:00 PM to 1:00 PM for lunch.
+
+Please note - this is only a request... not a confirmed appointment. 
+
+Our patient coordinator will reach out to you as soon as possible to confirm your appointment! 🙂 
+
+Thanks for choosing our practice! Is there anything else I can assist you with?",,,,2720,139,3601
+data,gemini-1.5-pro,9,mario@postizo.com,,,"{""appointment_requested"":true,""name"":""Mario Postizo"",""phone"":""5556667777"",""email"":""mario@postizo.com"",""appointment_date"":null,""ai_chat_flow"":""patient"",""new_or_existing_patient"":""New""}",email,1152,92,2494
+conversation,gemini-1.5-pro,10,can it be today?,"Today is Tuesday, November 26th, 2024. Our office hours are 8:30 AM to 5:00 PM, closed from 12:00 PM to 1:00 PM for lunch. What time would you like to be seen today?  Please note - this is only a request... not a confirmed appointment.
+
+Our patient coordinator will reach out to you as soon as possible to confirm your appointment! 🙂 
+
+Thanks for choosing our practice!",,,,3121,135,3427
+data,gemini-1.5-pro,10,can it be today?,,,"{""appointment_requested"":true,""name"":""Mario Postizo"",""phone"":""5556667777"",""email"":""mario@postizo.com"",""appointment_date"":""today"",""ai_chat_flow"":""patient"",""new_or_existing_patient"":""New""}",appointment_date,1270,95,2487
+conversation,gemini-1.5-pro,11,monday at 9 is fine,"OK. I have noted your requested appointment for Monday at 9:00 AM. 
+
+Please note - this is only a request... not a confirmed appointment.
+
+Our patient coordinator will reach out to you as soon as possible to confirm your appointment! 🙂
+
+Thanks for choosing our practice! Is there anything else I can assist you with?",,,,2959,102,2853
+data,gemini-1.5-pro,11,monday at 9 is fine,,,"{""appointment_requested"":true,""name"":""Mario Postizo"",""phone"":""5556667777"",""email"":""mario@postizo.com"",""appointment_date"":""monday at 9"",""ai_chat_flow"":""patient"",""new_or_existing_patient"":""New""}",appointment_date,1387,98,3599
+conversation,gemini-1.5-pro,12,Remind me please the address,"Our office is located at 1221 W Ben White Blvd.( @ Banister ) Suite 212B Austin, TX 78704. Is there anything else I can assist you with?",,,,3064,71,2078
+data,gemini-1.5-pro,12,Remind me please the address,,,"{""appointment_requested"":true,""name"":""Mario Postizo"",""phone"":""5556667777"",""email"":""mario@postizo.com"",""appointment_date"":""monday at 9"",""ai_chat_flow"":""patient"",""new_or_existing_patient"":""New""}",,1468,95,2503
+conversation,gemini-1.5-pro,1,What insurances do you accept,"We accept a variety of HMOs, PPOs, and other health plans. Please call our office to verify acceptance of your insurance carrier, as some may require a referral. 
+
+Would you like to request an appointment?","Yes,No",,,2348,79,2892
+data,gemini-1.5-pro,1,What insurances do you accept,,,"{""appointment_requested"":null,""name"":null,""phone"":null,""email"":null,""appointment_date"":null,""ai_chat_flow"":""general"",""new_or_existing_patient"":null}",,812,71,2057
+conversation,gemini-1.5-pro,2,"I have Revolut, will  that work?","I apologize, I'm unable to answer your question about Revolut.  You can call our office at (512) 476-6275 for assistance with this inquiry. 
+
+Would you like to request an appointment?","Yes,No",,,2434,85,2432
+data,gemini-1.5-pro,2,"I have Revolut, will  that work?",,,"{""appointment_requested"":null,""name"":null,""phone"":null,""email"":null,""appointment_date"":null,""ai_chat_flow"":""general"",""new_or_existing_patient"":null}",,874,71,2162
+conversation,gemini-1.5-pro,3,What doctor works with you? What's his education?,Dr. Mark Robson is a highly experienced foot doctor working with patients to provide the best podiatric care in the Austin area.  Would you like to request an appointment?,"Yes,No",,,2506,66,2054
+data,gemini-1.5-pro,3,What doctor works with you? What's his education?,,,"{""appointment_requested"":null,""name"":null,""phone"":null,""email"":null,""appointment_date"":null,""ai_chat_flow"":""general"",""new_or_existing_patient"":null}",,944,71,2360
+conversation,gemini-1.5-pro,4,Is he able to adapt my old Rayban to my myopia?,"I apologize, I'm unable to answer your question about adapting Rayban glasses.  We specialize in podiatric care. You can call our office at (512) 476-6275 for assistance with this inquiry.
+
+Would you like to request an appointment?","Yes,No",,,2762,94,3401
+data,gemini-1.5-pro,4,Is he able to adapt my old Rayban to my myopia?,,,"{""appointment_requested"":null,""name"":null,""phone"":null,""email"":null,""appointment_date"":null,""ai_chat_flow"":""general"",""new_or_existing_patient"":null}",,999,71,2116
+conversation,gemini-1.5-pro,5,"Yes, please",Great! Are you a new or existing patient?,"New Patient,Existing Patient",,,2821,43,1551
+data,gemini-1.5-pro,5,"Yes, please",,,"{""appointment_requested"":true,""name"":null,""phone"":null,""email"":null,""appointment_date"":null,""ai_chat_flow"":""patient"",""new_or_existing_patient"":null}",,1069,71,2187
+conversation,gemini-1.5-pro,6,I suppose I am new,Welcome to our practice! What is your name?,,,,2564,36,1419
+data,gemini-1.5-pro,6,I suppose I am new,,,"{""appointment_requested"":true,""name"":null,""phone"":null,""email"":null,""appointment_date"":null,""ai_chat_flow"":""patient"",""new_or_existing_patient"":""New""}",new_or_existing_patient,1090,79,2168
+conversation,gemini-1.5-pro,7,Mario Postizo,"It's a pleasure to welcome you, Mario! What is the best number to reach you at? 
+
+By submitting your phone number below, you understand we may send text messages to this number containing relevant information.",,,,2662,72,2155
+data,gemini-1.5-pro,7,Mario Postizo,,,"{""appointment_requested"":true,""name"":""Mario Postizo"",""phone"":null,""email"":null,""appointment_date"":null,""ai_chat_flow"":""patient"",""new_or_existing_patient"":""New""}",name,1109,76,2157
+conversation,gemini-1.5-pro,8,5556667777,"Thank you, Mario. What is the best email for you?",,,,2733,36,1426
+data,gemini-1.5-pro,8,5556667777,,,"{""appointment_requested"":true,""name"":""Mario Postizo"",""phone"":""5556667777"",""email"":null,""appointment_date"":null,""ai_chat_flow"":""patient"",""new_or_existing_patient"":""New""}",phone,1170,86,2390
+conversation,gemini-1.5-pro,9,mario@postizo.com,"Thank you, Mario. When would you like to schedule your appointment? Our office hours are Monday through Friday, 8:30 AM to 5:00 PM, closed from 12:00 PM to 1:00 PM for lunch.  We are closed on Saturdays and Sundays. What day and time work best for you?",,,,2762,99,2656
+data,gemini-1.5-pro,9,mario@postizo.com,,,"{""appointment_requested"":true,""name"":""Mario Postizo"",""phone"":""5556667777"",""email"":""mario@postizo.com"",""appointment_date"":null,""ai_chat_flow"":""patient"",""new_or_existing_patient"":""New""}",email,1195,92,2430
+conversation,gemini-1.5-pro,10,can it be today?,"Unfortunately, appointments for today are fully booked.  Our office hours are Monday through Friday, 8:30 AM to 5:00 PM, closing for lunch between 12:00 PM and 1:00 PM.  We are closed on Saturdays and Sundays.
+
+When would you like to schedule your appointment? ",,,,3130,98,2654
+data,gemini-1.5-pro,10,can it be today?,,,"{""appointment_requested"":true,""name"":""Mario Postizo"",""phone"":""5556667777"",""email"":""mario@postizo.com"",""appointment_date"":""today"",""ai_chat_flow"":""patient"",""new_or_existing_patient"":""New""}",appointment_date,1279,95,2579
+conversation,gemini-1.5-pro,11,monday at 9 is fine,"Okay, Monday at 9 AM.  Please note - this is only a request, not a confirmed appointment.
+
+Our patient coordinator will reach out to you as soon as possible to confirm your appointment! 🙂
+
+Thanks for choosing our practice!
+
+Is there anything else I can assist you with?",,,,2933,93,2566
+data,gemini-1.5-pro,11,monday at 9 is fine,,,"{""appointment_requested"":true,""name"":""Mario Postizo"",""phone"":""5556667777"",""email"":""mario@postizo.com"",""appointment_date"":""monday at 9"",""ai_chat_flow"":""patient"",""new_or_existing_patient"":""New""}",appointment_date,1362,98,2555
+conversation,gemini-1.5-pro,12,Remind me please the address,"Our office is located at 1221 W Ben White Blvd.( @ Banister ) Suite 212B Austin, TX 78704. Is there anything else I can help you with?",,,,3029,70,2124
+data,gemini-1.5-pro,12,Remind me please the address,,,"{""appointment_requested"":true,""name"":""Mario Postizo"",""phone"":""5556667777"",""email"":""mario@postizo.com"",""appointment_date"":""monday at 9"",""ai_chat_flow"":""patient"",""new_or_existing_patient"":""New""}",,1433,95,2703
+conversation,gemini-1.5-pro,1,What insurances do you accept,"We accept a variety of HMOs, PPOs, and other health plans. Please call our office to verify acceptance of your insurance carrier, as some may require a referral. 
+
+Would you like to request an appointment?","Yes,No",,,2348,79,2754
+data,gemini-1.5-pro,1,What insurances do you accept,,,"{""appointment_requested"":null,""name"":null,""phone"":null,""email"":null,""appointment_date"":null,""ai_chat_flow"":""general"",""new_or_existing_patient"":null}",,812,71,2106
+conversation,gemini-1.5-pro,2,"I have Revolut, will  that work?","I apologize, I'm unable to answer if we accept Revolut. You can call our office at [phone number] to inquire about accepted payment methods. 
+
+Would you like to request an appointment?","Yes,No",,,2434,75,2218
+data,gemini-1.5-pro,2,"I have Revolut, will  that work?",,,"{""appointment_requested"":null,""name"":null,""phone"":null,""email"":null,""appointment_date"":null,""ai_chat_flow"":""general"",""new_or_existing_patient"":null}",,874,71,1996
+conversation,gemini-1.5-pro,3,What doctor works with you? What's his education?,Dr. Mark Robson is a highly experienced foot doctor dedicated to providing the best podiatric care in the Austin area. Would you like to request an appointment?,"Yes,No",,,2496,63,1983
+data,gemini-1.5-pro,3,What doctor works with you? What's his education?,,,"{""appointment_requested"":null,""name"":null,""phone"":null,""email"":null,""appointment_date"":null,""ai_chat_flow"":""general"",""new_or_existing_patient"":null}",,934,71,2177
+conversation,gemini-1.5-pro,4,Is he able to adapt my old Rayban to my myopia?,"I apologize, I'm unable to answer that question as it pertains to optometry, not podiatry.  We specialize in foot and ankle care. Would you like to request an appointment with our podiatrist, Dr. Robson? 
+
+Our office hours are:
+Monday: 8:30 AM - 5:00 PM
+Tuesday: 8:30 AM - 5:00 PM
+Wednesday: 8:30 AM - 5:00 PM
+Thursday: 8:30 AM - 5:00 PM
+Friday: 8:30 AM - 5:00 PM
+Saturday: Closed
+Sunday: Closed","Yes,No",,,2749,184,4491
+data,gemini-1.5-pro,4,Is he able to adapt my old Rayban to my myopia?,,,"{""appointment_requested"":null,""name"":null,""phone"":null,""email"":null,""appointment_date"":null,""ai_chat_flow"":""general"",""new_or_existing_patient"":null}",,986,71,2148
+conversation,gemini-1.5-pro,5,"Yes, please",Great! Are you a new or existing patient?,"New Patient,Existing Patient",,,2891,43,1540
+data,gemini-1.5-pro,5,"Yes, please",,,"{""appointment_requested"":true,""name"":null,""phone"":null,""email"":null,""appointment_date"":null,""ai_chat_flow"":""patient"",""new_or_existing_patient"":null}",,1139,72,2003
+conversation,gemini-1.5-pro,6,I suppose I am new,Welcome to our practice! What is your name?,,,,2634,36,1873
+data,gemini-1.5-pro,6,I suppose I am new,,,"{""appointment_requested"":true,""name"":null,""phone"":null,""email"":null,""appointment_date"":null,""ai_chat_flow"":""patient"",""new_or_existing_patient"":""New""}",new_or_existing_patient,1160,79,2169
+conversation,gemini-1.5-pro,7,Mario Postizo,"It's a pleasure to meet you, Mario! What is the best number to reach you at?
+
+By submitting your phone number below, you understand we may send text messages to this number containing relevant information.",,,,2732,68,2074
+data,gemini-1.5-pro,7,Mario Postizo,,,"{""appointment_requested"":true,""name"":""Mario Postizo"",""phone"":null,""email"":null,""appointment_date"":null,""ai_chat_flow"":""patient"",""new_or_existing_patient"":""New""}",name,1179,76,2214
+conversation,gemini-1.5-pro,8,5556667777,"Thank you, Mario. What is the best email for you?",,,,2802,39,1982
+data,gemini-1.5-pro,8,5556667777,,,"{""appointment_requested"":true,""name"":""Mario Postizo"",""phone"":""5556667777"",""email"":null,""appointment_date"":null,""ai_chat_flow"":""patient"",""new_or_existing_patient"":""New""}",phone,1239,86,2301
+conversation,gemini-1.5-pro,9,mario@postizo.com,"Thank you, Mario. When would you like to schedule your appointment? Our office hours are Monday through Friday, 8:30 AM to 5:00 PM, closed from 12:00 PM to 1:00 PM for lunch.
+
+Please note - this is only a request... not a confirmed appointment.
+
+Our patient coordinator will reach out to you as soon as possible to confirm your appointment! 🙂
+
+Thanks for choosing our practice! Is there anything else I can assist you with?",,,,2831,138,3491
+data,gemini-1.5-pro,9,mario@postizo.com,,,"{""appointment_requested"":true,""name"":""Mario Postizo"",""phone"":""5556667777"",""email"":""mario@postizo.com"",""appointment_date"":null,""ai_chat_flow"":""patient"",""new_or_existing_patient"":""New""}",email,1264,92,2509
+conversation,gemini-1.5-pro,10,can it be today?,"Unfortunately, we are closed today. Our office hours are Monday-Friday 8:30 AM - 5:00 PM, closed for lunch from 12:00 PM to 1:00 PM.  When would you like to schedule your appointment?",,,,3232,76,2407
+data,gemini-1.5-pro,10,can it be today?,,,"{""appointment_requested"":true,""name"":""Mario Postizo"",""phone"":""5556667777"",""email"":""mario@postizo.com"",""appointment_date"":""today"",""ai_chat_flow"":""patient"",""new_or_existing_patient"":""New""}",appointment_date,1381,95,2563
+conversation,gemini-1.5-pro,11,monday at 9 is fine,"Okay, Mario. Monday at 9 AM it is. 
+
+Please note - this is only a request... not a confirmed appointment.
+
+Our patient coordinator will reach out to you as soon as possible to confirm your appointment! 🙂
+
+Thanks for choosing our practice! Is there anything else I can assist you with?",,,,3022,97,6856
+data,gemini-1.5-pro,11,monday at 9 is fine,,,"{""appointment_requested"":true,""name"":""Mario Postizo"",""phone"":""5556667777"",""email"":""mario@postizo.com"",""appointment_date"":""monday at 9"",""ai_chat_flow"":""patient"",""new_or_existing_patient"":""New""}",appointment_date,1450,98,2687
+conversation,gemini-1.5-pro,12,Remind me please the address,"Our office is located at 1221 W Ben White Blvd.( @ Banister ) Suite 212B Austin, TX 78704. Is there anything else I can help you with?",,,,3121,70,2218
+data,gemini-1.5-pro,12,Remind me please the address,,,"{""appointment_requested"":true,""name"":""Mario Postizo"",""phone"":""5556667777"",""email"":""mario@postizo.com"",""appointment_date"":""monday at 9"",""ai_chat_flow"":""patient"",""new_or_existing_patient"":""New""}",,1525,95,2633
+conversation,gemini-1.5-pro,1,What insurances do you accept,"We accept a variety of HMOs, PPOs, and other health plans. Please call our office to verify acceptance of your insurance carrier, as some may require a referral.
+
+Would you like to request an appointment?","Yes,No",,,2348,78,2866
+data,gemini-1.5-pro,1,What insurances do you accept,,,"{""appointment_requested"":null,""name"":null,""phone"":null,""email"":null,""appointment_date"":null,""ai_chat_flow"":""general"",""new_or_existing_patient"":null}",,812,71,2035
+conversation,gemini-1.5-pro,2,"I have Revolut, will  that work?","I apologize, but I'm unable to answer whether we accept Revolut.  You can call our office at [phone number] to inquire about accepted payment methods.
+
+Would you like to request an appointment?","Yes,No",,,2433,76,2441
+data,gemini-1.5-pro,2,"I have Revolut, will  that work?",,,"{""appointment_requested"":null,""name"":null,""phone"":null,""email"":null,""appointment_date"":null,""ai_chat_flow"":null,""new_or_existing_patient"":null}",,873,70,2109
+conversation,gemini-1.5-pro,3,What doctor works with you? What's his education?,Dr. Mark Robson is a highly experienced foot doctor dedicated to providing the best podiatric care in the Austin area. Would you like to request an appointment?,"Yes,No",,,2496,63,1913
+data,gemini-1.5-pro,3,What doctor works with you? What's his education?,,,"{""appointment_requested"":null,""name"":null,""phone"":null,""email"":null,""appointment_date"":null,""ai_chat_flow"":""general"",""new_or_existing_patient"":null}",,934,72,2036
+conversation,gemini-1.5-pro,4,Is he able to adapt my old Rayban to my myopia?,"I apologize, but I'm unable to answer that question. You can call our office at [phone number] for assistance with specific inquiries regarding your Rayban and myopia. 
+
+Would you like to request an appointment?","Yes,No",,,2749,79,2289
+data,gemini-1.5-pro,4,Is he able to adapt my old Rayban to my myopia?,,,"{""appointment_requested"":null,""name"":null,""phone"":null,""email"":null,""appointment_date"":null,""ai_chat_flow"":""general"",""new_or_existing_patient"":null}",,986,71,2069
+conversation,gemini-1.5-pro,5,"Yes, please",Great! Are you a new or existing patient?,"New Patient,Existing Patient",,,2793,43,1601
+data,gemini-1.5-pro,5,"Yes, please",,,"{""appointment_requested"":true,""name"":null,""phone"":null,""email"":null,""appointment_date"":null,""ai_chat_flow"":""patient"",""new_or_existing_patient"":null}",,1041,71,1972
+conversation,gemini-1.5-pro,6,I suppose I am new,Welcome to our practice! What is your name?,,,,2536,36,1418
+data,gemini-1.5-pro,6,I suppose I am new,,,"{""appointment_requested"":true,""name"":null,""phone"":null,""email"":null,""appointment_date"":null,""ai_chat_flow"":""patient"",""new_or_existing_patient"":""New""}",new_or_existing_patient,1062,79,2252
+conversation,gemini-1.5-pro,7,Mario Postizo,"It's a pleasure to meet you, Mario! What is the best number to reach you at?
+
+By submitting your phone number below, you understand we may send text messages to this number containing relevant information.",,,,2634,68,2088
+data,gemini-1.5-pro,7,Mario Postizo,,,"{""appointment_requested"":true,""name"":""Mario Postizo"",""phone"":null,""email"":null,""appointment_date"":null,""ai_chat_flow"":""patient"",""new_or_existing_patient"":""New""}",name,1081,77,2336
+conversation,gemini-1.5-pro,8,5556667777,What is the best email for you?,,,,2704,34,1403
+data,gemini-1.5-pro,8,5556667777,,,"{""appointment_requested"":true,""name"":""Mario Postizo"",""phone"":""5556667777"",""email"":null,""appointment_date"":null,""ai_chat_flow"":""patient"",""new_or_existing_patient"":""New""}",phone,1141,87,2424
+conversation,gemini-1.5-pro,9,mario@postizo.com,"Thank you, Mario. When would you like to schedule your appointment? Our office hours are Monday through Friday, 8:30 AM to 5:00 PM, closed from 12:00 PM to 1:00 PM for lunch.
+
+We are closed on Saturdays and Sundays.  What day and time works best for you?",,,,2728,102,2710
+data,gemini-1.5-pro,9,mario@postizo.com,,,"{""appointment_requested"":true,""name"":""Mario Postizo"",""phone"":""5556667777"",""email"":""mario@postizo.com"",""appointment_date"":null,""ai_chat_flow"":""patient"",""new_or_existing_patient"":""New""}",email,1161,92,2562
+conversation,gemini-1.5-pro,10,can it be today?,"Unfortunately, we don't have any appointments available for today.  Our office hours are Monday through Friday, 8:30 AM to 5:00 PM, closed from 12:00 PM to 1:00 PM for lunch.  We are closed on Saturdays and Sundays.
+
+When would you like to schedule your appointment? ",,,,3097,103,2827
+data,gemini-1.5-pro,10,can it be today?,,,"{""appointment_requested"":true,""name"":""Mario Postizo"",""phone"":""5556667777"",""email"":""mario@postizo.com"",""appointment_date"":""today"",""ai_chat_flow"":""patient"",""new_or_existing_patient"":""New""}",appointment_date,1246,95,2530
+conversation,gemini-1.5-pro,11,monday at 9 is fine,"Ok, Monday at 9 AM. 
+
+Please note - this is only a request... not a confirmed appointment.
+
+Our patient coordinator will reach out to you as soon as possible to confirm your appointment! 🙂
+
+Thanks for choosing our practice! Is there anything else I can assist you with?",,,,2904,93,2568
+data,gemini-1.5-pro,11,monday at 9 is fine,,,"{""appointment_requested"":true,""name"":""Mario Postizo"",""phone"":""5556667777"",""email"":""mario@postizo.com"",""appointment_date"":""monday at 9"",""ai_chat_flow"":""patient"",""new_or_existing_patient"":""New""}",appointment_date,1333,98,2573
+conversation,gemini-1.5-pro,12,Remind me please the address,"Our office is located at 1221 W Ben White Blvd. (at Banister), Suite 212B, Austin, TX 78704. Is there anything else I can assist you with?",,,,3000,73,2216
+data,gemini-1.5-pro,12,Remind me please the address,,,"{""appointment_requested"":true,""name"":""Mario Postizo"",""phone"":""5556667777"",""email"":""mario@postizo.com"",""appointment_date"":""monday at 9"",""ai_chat_flow"":""patient"",""new_or_existing_patient"":""New""}",,1404,95,2478
+conversation,gemini-1.5-pro,1,What insurances do you accept,"We accept a variety of HMOs, PPOs, and other health plans. Please call our office to verify acceptance of your insurance carrier, as some may require a referral. 
+
+Would you like to request an appointment?","Yes,No",,,2348,79,2920
+data,gemini-1.5-pro,1,What insurances do you accept,,,"{""appointment_requested"":null,""name"":null,""phone"":null,""email"":null,""appointment_date"":null,""ai_chat_flow"":""general"",""new_or_existing_patient"":null}",,812,71,2197
+conversation,gemini-1.5-pro,2,"I have Revolut, will  that work?","I apologize, I am unable to answer your question regarding Revolut. Would you like to request an appointment?
+
+Our office hours are:
+Monday: 8:30 AM - 5:00 PM
+Tuesday: 8:30 AM - 5:00 PM
+Wednesday: 8:30 AM - 5:00 PM
+Thursday: 8:30 AM - 5:00 PM
+Friday: 8:30 AM - 5:00 PM
+Saturday: Closed
+Sunday: Closed","Yes,No",,,2434,156,3884
+data,gemini-1.5-pro,2,"I have Revolut, will  that work?",,,"{""appointment_requested"":null,""name"":null,""phone"":null,""email"":null,""appointment_date"":null,""ai_chat_flow"":""general"",""new_or_existing_patient"":null}",,874,71,1997
+conversation,gemini-1.5-pro,3,What doctor works with you? What's his education?,"Dr. Mark Robson is a highly experienced foot doctor working with patients to provide the best podiatric care in the Austin area. Would you like to request an appointment?
+
+Our office hours are:
+Monday: 8:30 AM - 5:00 PM
+Tuesday: 8:30 AM - 5:00 PM
+Wednesday: 8:30 AM - 5:00 PM
+Thursday: 8:30 AM - 5:00 PM
+Friday: 8:30 AM - 5:00 PM
+Saturday: Closed
+Sunday: Closed","Yes,No",,,2570,168,4118
+data,gemini-1.5-pro,3,What doctor works with you? What's his education?,,,"{""appointment_requested"":null,""name"":null,""phone"":null,""email"":null,""appointment_date"":null,""ai_chat_flow"":""general"",""new_or_existing_patient"":null}",,1008,71,2393
+conversation,gemini-1.5-pro,4,Is he able to adapt my old Rayban to my myopia?,"I apologize, I am unable to answer your question regarding adapting your Rayban to your myopia. Would you like to request an appointment?
+
+Our office hours are:
+Monday: 8:30 AM - 5:00 PM
+Tuesday: 8:30 AM - 5:00 PM
+Wednesday: 8:30 AM - 5:00 PM
+Thursday: 8:30 AM - 5:00 PM
+Friday: 8:30 AM - 5:00 PM
+Saturday: Closed
+Sunday: Closed","Yes,No",,,2919,162,4108
+data,gemini-1.5-pro,4,Is he able to adapt my old Rayban to my myopia?,,,"{""appointment_requested"":null,""name"":null,""phone"":null,""email"":null,""appointment_date"":null,""ai_chat_flow"":""general"",""new_or_existing_patient"":null}",,1156,71,2629
+conversation,gemini-1.5-pro,5,"Yes, please",Great! Are you a new or existing patient?,"New Patient,Existing Patient",,,3039,44,1811
+data,gemini-1.5-pro,5,"Yes, please",,,"{""appointment_requested"":true,""name"":null,""phone"":null,""email"":null,""appointment_date"":null,""ai_chat_flow"":""patient"",""new_or_existing_patient"":null}",,1287,71,1993
+conversation,gemini-1.5-pro,6,I suppose I am new,Welcome to our practice! What is your name?,,,,2782,36,1405
+data,gemini-1.5-pro,6,I suppose I am new,,,"{""appointment_requested"":true,""name"":null,""phone"":null,""email"":null,""appointment_date"":null,""ai_chat_flow"":""patient"",""new_or_existing_patient"":""New""}",new_or_existing_patient,1308,79,2307
+conversation,gemini-1.5-pro,7,Mario Postizo,"It's a pleasure to meet you, Mario! What is the best number to reach you at? 
+
+By submitting your phone number below, you understand we may send text messages to this number containing relevant information.",,,,2880,69,2100
+data,gemini-1.5-pro,7,Mario Postizo,,,"{""appointment_requested"":true,""name"":""Mario Postizo"",""phone"":null,""email"":null,""appointment_date"":null,""ai_chat_flow"":""patient"",""new_or_existing_patient"":""New""}",name,1327,76,2097
+conversation,gemini-1.5-pro,8,5556667777,"Thank you, Mario. What is the best email for you?",,,,2951,39,1516
+data,gemini-1.5-pro,8,5556667777,,,"{""appointment_requested"":true,""name"":""Mario Postizo"",""phone"":""5556667777"",""email"":null,""appointment_date"":null,""ai_chat_flow"":""patient"",""new_or_existing_patient"":""New""}",phone,1388,86,2343
+conversation,gemini-1.5-pro,9,mario@postizo.com,"Thank you, Mario. When would you like to schedule the appointment?
+
+Our office hours are:
+Monday: 8:30 AM - 5:00 PM
+Tuesday: 8:30 AM - 5:00 PM
+Wednesday: 8:30 AM - 5:00 PM
+Thursday: 8:30 AM - 5:00 PM
+Friday: 8:30 AM - 5:00 PM
+Saturday: Closed
+Sunday: Closed",,,,2980,142,3584
+data,gemini-1.5-pro,9,mario@postizo.com,,,"{""appointment_requested"":true,""name"":""Mario Postizo"",""phone"":""5556667777"",""email"":""mario@postizo.com"",""appointment_date"":null,""ai_chat_flow"":""patient"",""new_or_existing_patient"":""New""}",email,1413,92,3025
+conversation,gemini-1.5-pro,10,can it be today?,"Unfortunately, we do not have any availability for today.  Our office hours are Monday through Friday, 8:30 AM to 5:00 PM, closed from 12PM to 1PM for lunch. When would you like to schedule your appointment?",,,,3383,79,2257
+data,gemini-1.5-pro,10,can it be today?,,,"{""appointment_requested"":true,""name"":""Mario Postizo"",""phone"":""5556667777"",""email"":""mario@postizo.com"",""appointment_date"":""today"",""ai_chat_flow"":""patient"",""new_or_existing_patient"":""New""}",appointment_date,1532,95,2716
+conversation,gemini-1.5-pro,11,monday at 9 is fine,"Great! Please note - this is only a request... not a confirmed appointment.
+
+Our patient coordinator will reach out to you as soon as possible to confirm your appointment! 🙂
+
+Thanks for choosing our practice! Is there anything else I can assist you with?",,,,3172,82,2363
+data,gemini-1.5-pro,11,monday at 9 is fine,,,"{""appointment_requested"":true,""name"":""Mario Postizo"",""phone"":""5556667777"",""email"":""mario@postizo.com"",""appointment_date"":""monday at 9"",""ai_chat_flow"":""patient"",""new_or_existing_patient"":""New""}",appointment_date,1600,98,2642
+conversation,gemini-1.5-pro,12,Remind me please the address,"Our office is located at 1221 W Ben White Blvd.( @ Banister ) Suite 212B Austin, TX 78704. Is there anything else I can help you with?",,,,3259,70,2098
+data,gemini-1.5-pro,12,Remind me please the address,,,"{""appointment_requested"":true,""name"":""Mario Postizo"",""phone"":""5556667777"",""email"":""mario@postizo.com"",""appointment_date"":""monday at 9"",""ai_chat_flow"":""patient"",""new_or_existing_patient"":""New""}",,1663,95,2622
+conversation,gemini-1.5-pro,1,What insurances do you accept,"We accept a variety of HMOs, PPOs, and other health plans. Please call our office to verify acceptance of your insurance carrier, as some may require a referral.
+
+Would you like to request an appointment?","Yes,No",,,2348,78,2830
+data,gemini-1.5-pro,1,What insurances do you accept,,,"{""appointment_requested"":null,""name"":null,""phone"":null,""email"":null,""appointment_date"":null,""ai_chat_flow"":""general"",""new_or_existing_patient"":null}",,812,71,1995
+conversation,gemini-1.5-pro,2,"I have Revolut, will  that work?","I apologize, I am unable to answer your question regarding Revolut. You can call our office at [phone number] for assistance with this inquiry.
+
+Would you like to request an appointment?","Yes,No",,,2433,72,2122
+data,gemini-1.5-pro,2,"I have Revolut, will  that work?",,,"{""appointment_requested"":null,""name"":null,""phone"":null,""email"":null,""appointment_date"":null,""ai_chat_flow"":""general"",""new_or_existing_patient"":null}",,873,71,2052
+conversation,gemini-1.5-pro,3,What doctor works with you? What's his education?,"Dr. Mark Robson is a highly experienced foot doctor working with patients to provide the best podiatric care in the Austin area.  Our practice is dedicated to the comfort and prompt attention of our patients.
+
+Would you like to request an appointment?","Yes,No",,,2492,83,2338
+data,gemini-1.5-pro,3,What doctor works with you? What's his education?,,,"{""appointment_requested"":null,""name"":null,""phone"":null,""email"":null,""appointment_date"":null,""ai_chat_flow"":""general"",""new_or_existing_patient"":null}",,930,72,2566
+conversation,gemini-1.5-pro,4,Is he able to adapt my old Rayban to my myopia?,"I apologize, I'm unable to answer your question regarding adapting old Rayban to myopia.  We specialize in podiatry, foot and ankle care.
+
+Would you like to request an appointment?","Yes,No",,,2763,75,2327
+data,gemini-1.5-pro,4,Is he able to adapt my old Rayban to my myopia?,,,"{""appointment_requested"":null,""name"":null,""phone"":null,""email"":null,""appointment_date"":null,""ai_chat_flow"":""general"",""new_or_existing_patient"":null}",,1000,71,1984
+conversation,gemini-1.5-pro,5,"Yes, please",Great! Are you a new or existing patient?,"New Patient,Existing Patient",,,2803,43,1524
+data,gemini-1.5-pro,5,"Yes, please",,,"{""appointment_requested"":true,""name"":null,""phone"":null,""email"":null,""appointment_date"":null,""ai_chat_flow"":""patient"",""new_or_existing_patient"":null}",,1051,71,1983
+conversation,gemini-1.5-pro,6,I suppose I am new,Welcome to our practice! What is your name?,,,,2546,36,1393
+data,gemini-1.5-pro,6,I suppose I am new,,,"{""appointment_requested"":true,""name"":null,""phone"":null,""email"":null,""appointment_date"":null,""ai_chat_flow"":""patient"",""new_or_existing_patient"":""New""}",new_or_existing_patient,1072,79,2180
+conversation,gemini-1.5-pro,7,Mario Postizo,"It's a pleasure to welcome you, Mario! What is the best number to reach you at?
+
+By submitting your phone number below, you understand we may send text messages to this number containing relevant information.",,,,2644,71,2139
+data,gemini-1.5-pro,7,Mario Postizo,,,"{""appointment_requested"":true,""name"":""Mario Postizo"",""phone"":null,""email"":null,""appointment_date"":null,""ai_chat_flow"":""patient"",""new_or_existing_patient"":""New""}",name,1091,76,2086
+conversation,gemini-1.5-pro,8,5556667777,"Thank you, Mario. What is the best email address to reach you at?
+
+",,,,2714,45,1611
+data,gemini-1.5-pro,8,5556667777,,,"{""appointment_requested"":true,""name"":""Mario Postizo"",""phone"":""5556667777"",""email"":null,""appointment_date"":null,""ai_chat_flow"":""patient"",""new_or_existing_patient"":""New""}",phone,1151,86,2325
+conversation,gemini-1.5-pro,9,mario@postizo.com,"Thank you, Mario. When would you like to schedule your appointment? Our office hours are Monday through Friday, 8:30 AM to 5:00 PM, closed for lunch between 12:00 PM and 1:00 PM.
+
+Please note - this is only a request... not a confirmed appointment.
+
+Our patient coordinator will reach out to you as soon as possible to confirm your appointment! 🙂
+
+Thanks for choosing our practice! Is there anything else I can help you with?",,,,2747,139,3528
+data,gemini-1.5-pro,9,mario@postizo.com,,,"{""appointment_requested"":true,""name"":""Mario Postizo"",""phone"":""5556667777"",""email"":""mario@postizo.com"",""appointment_date"":null,""ai_chat_flow"":""patient"",""new_or_existing_patient"":""New""}",email,1179,92,2411
+conversation,gemini-1.5-pro,10,can it be today?,"Unfortunately, today is already Tuesday, November 26th.  Is there another day that works for you?",,,,3147,46,1614
+data,gemini-1.5-pro,10,can it be today?,,,"{""appointment_requested"":true,""name"":""Mario Postizo"",""phone"":""5556667777"",""email"":""mario@postizo.com"",""appointment_date"":""today"",""ai_chat_flow"":""patient"",""new_or_existing_patient"":""New""}",appointment_date,1296,95,2525
+conversation,gemini-1.5-pro,11,monday at 9 is fine,"Ok, Monday at 9 AM. 
+
+Please note - this is only a request... not a confirmed appointment.
+
+Our patient coordinator will reach out to you as soon as possible to confirm your appointment! 🙂
+
+Thanks for choosing our practice! Is there anything else I can help you with?",,,,2903,92,2526
+data,gemini-1.5-pro,11,monday at 9 is fine,,,"{""appointment_requested"":true,""name"":""Mario Postizo"",""phone"":""5556667777"",""email"":""mario@postizo.com"",""appointment_date"":""monday at 9"",""ai_chat_flow"":""patient"",""new_or_existing_patient"":""New""}",appointment_date,1331,98,2579
+conversation,gemini-1.5-pro,12,Remind me please the address,"Our office is located at 1221 W Ben White Blvd.( @ Banister ) Suite 212B Austin, TX 78704.  Do you have any other questions?",,,,2998,68,2066
+data,gemini-1.5-pro,12,Remind me please the address,,,"{""appointment_requested"":true,""name"":""Mario Postizo"",""phone"":""5556667777"",""email"":""mario@postizo.com"",""appointment_date"":""monday at 9"",""ai_chat_flow"":""patient"",""new_or_existing_patient"":""New""}",,1402,95,2528
+conversation,gemini-1.5-pro,1,What insurances do you accept,"We accept a variety of HMOs, PPOs, and other health plans. Please call our office to verify acceptance of your insurance carrier, as some may require a referral. 
+
+Would you like to request an appointment?","Yes,No",,,2348,79,2801
+data,gemini-1.5-pro,1,What insurances do you accept,,,"{""appointment_requested"":null,""name"":null,""phone"":null,""email"":null,""appointment_date"":null,""ai_chat_flow"":""general"",""new_or_existing_patient"":null}",,812,71,2052
+conversation,gemini-1.5-pro,2,"I have Revolut, will  that work?","I apologize, I am unable to answer your question about Revolut. Would you like to request an appointment?
+
+ Our office accepts checks, MasterCard, Visa, and Discover. We also accept a variety of HMOs, PPOs, and other health plans. You can call our office to verify acceptance of your insurance carrier. ","Yes,No",,,2434,100,2777
+data,gemini-1.5-pro,2,"I have Revolut, will  that work?",,,"{""appointment_requested"":null,""name"":null,""phone"":null,""email"":null,""appointment_date"":null,""ai_chat_flow"":""general"",""new_or_existing_patient"":null}",,874,71,2073
+conversation,gemini-1.5-pro,3,What doctor works with you? What's his education?,Dr. Mark Robson is a highly experienced foot doctor working with patients to provide the best podiatric care in the Austin area. Our team is dedicated to your comfort and prompt attention. Would you like to request an appointment?,"Yes,No",,,2520,76,2217
+data,gemini-1.5-pro,3,What doctor works with you? What's his education?,,,"{""appointment_requested"":null,""name"":null,""phone"":null,""email"":null,""appointment_date"":null,""ai_chat_flow"":""general"",""new_or_existing_patient"":null}",,959,71,2122
+conversation,gemini-1.5-pro,4,Is he able to adapt my old Rayban to my myopia?,"I apologize, I am unable to answer your question regarding adapting your Rayban glasses to your myopia.  Dr. Robson specializes in podiatry, which is foot and ankle care. 
+
+Would you like to request an appointment for podiatric care?","Yes,No",,,2787,86,2416
+data,gemini-1.5-pro,4,Is he able to adapt my old Rayban to my myopia?,,,"{""appointment_requested"":null,""name"":null,""phone"":null,""email"":null,""appointment_date"":null,""ai_chat_flow"":""general"",""new_or_existing_patient"":null}",,1024,71,2066
+conversation,gemini-1.5-pro,5,"Yes, please",Great! Are you a new or existing patient?,"New Patient,Existing Patient",,,2838,43,1625
+data,gemini-1.5-pro,5,"Yes, please",,,"{""appointment_requested"":true,""name"":null,""phone"":null,""email"":null,""appointment_date"":null,""ai_chat_flow"":""patient"",""new_or_existing_patient"":null}",,1086,71,1959
+conversation,gemini-1.5-pro,6,I suppose I am new,Welcome to our practice! What is your name?,,,,2581,36,1405
+data,gemini-1.5-pro,6,I suppose I am new,,,"{""appointment_requested"":true,""name"":null,""phone"":null,""email"":null,""appointment_date"":null,""ai_chat_flow"":""patient"",""new_or_existing_patient"":""New""}",new_or_existing_patient,1107,79,2151
+conversation,gemini-1.5-pro,7,Mario Postizo,"It's a pleasure to welcome you, Mario! What is the best number to reach you at?
+
+By submitting your phone number below, you understand we may send text messages to this number containing relevant information.",,,,2679,71,2218
+data,gemini-1.5-pro,7,Mario Postizo,,,"{""appointment_requested"":true,""name"":""Mario Postizo"",""phone"":null,""email"":null,""appointment_date"":null,""ai_chat_flow"":""patient"",""new_or_existing_patient"":""New""}",name,1126,76,2417
+conversation,gemini-1.5-pro,8,5556667777,"Thank you, Mario. What is the best email for you?",,,,2749,39,1490
+data,gemini-1.5-pro,8,5556667777,,,"{""appointment_requested"":true,""name"":""Mario Postizo"",""phone"":""5556667777"",""email"":null,""appointment_date"":null,""ai_chat_flow"":""patient"",""new_or_existing_patient"":""New""}",phone,1186,86,2278
+conversation,gemini-1.5-pro,9,mario@postizo.com,"Thank you, Mario. When would you like to schedule your appointment? 
+
+Our office hours are Monday through Friday, 8:30 AM to 5:00 PM, closed from 12:00 PM to 1:00 PM for lunch. We are closed on Saturdays and Sundays.",,,,2778,93,2572
+data,gemini-1.5-pro,9,mario@postizo.com,,,"{""appointment_requested"":true,""name"":""Mario Postizo"",""phone"":""5556667777"",""email"":""mario@postizo.com"",""appointment_date"":null,""ai_chat_flow"":""patient"",""new_or_existing_patient"":""New""}",email,1211,92,2472
+conversation,gemini-1.5-pro,10,can it be today?,"Unfortunately, we do not have any availability for today. Our office hours are Monday through Friday, 8:30 AM to 5:00 PM, closed from 12:00 PM to 1:00 PM for lunch. We are closed on Saturdays and Sundays.
+
+When would you like to schedule your appointment?",,,,3138,98,2725
+data,gemini-1.5-pro,10,can it be today?,,,"{""appointment_requested"":true,""name"":""Mario Postizo"",""phone"":""5556667777"",""email"":""mario@postizo.com"",""appointment_date"":""today"",""ai_chat_flow"":""patient"",""new_or_existing_patient"":""New""}",appointment_date,1287,95,2467
+conversation,gemini-1.5-pro,11,monday at 9 is fine,"Ok, Monday at 9 AM. Please note - this is only a request, not a confirmed appointment.
+
+Our patient coordinator will reach out to you as soon as possible to confirm your appointment! 🙂
+
+Thanks for choosing our practice! Is there anything else I can assist you with?",,,,2941,89,2520
+data,gemini-1.5-pro,11,monday at 9 is fine,,,"{""appointment_requested"":true,""name"":""Mario Postizo"",""phone"":""5556667777"",""email"":""mario@postizo.com"",""appointment_date"":""monday at 9"",""ai_chat_flow"":""patient"",""new_or_existing_patient"":""New""}",appointment_date,1369,98,2620
+conversation,gemini-1.5-pro,12,Remind me please the address,"Our office is located at 1221 W Ben White Blvd.( @ Banister ) Suite 212B Austin, TX 78704.  Is there anything else I can help you with?",,,,3034,72,2300
+data,gemini-1.5-pro,12,Remind me please the address,,,"{""appointment_requested"":true,""name"":""Mario Postizo"",""phone"":""5556667777"",""email"":""mario@postizo.com"",""appointment_date"":""monday at 9"",""ai_chat_flow"":""patient"",""new_or_existing_patient"":""New""}",,1438,95,2613

@@ -1,0 +1,350 @@
+Service,Model,Step,Input,Output,Suggestion Chips,Data,Fulfilled Properties,Input Tokens,Output Tokens,Execution Time
+conversation,claude-3-5-sonnet,1,What insurances do you accept,"Our office accepts a variety of HMOs, PPOs, and other health plans. However, you'll need to call our office to verify acceptance of your specific insurance carrier, as some may require a referral. Would you like to request an appointment so we can help verify your insurance coverage?","Yes, I'd like an appointment,No, just checking,I have more questions",,,2491,134,4435
+data,claude-3-5-sonnet,1,What insurances do you accept,,,"{""error"":""Failed to extract data from the conversation""}",,877,109,5841
+conversation,claude-3-5-sonnet,2,"I have Revolut, will  that work?","I see you're asking about Revolut. We accept Visa, MasterCard, Discover, check, and various insurance plans. Would you like me to help you request an appointment so we can discuss payment options in more detail?","Yes, I'd like an appointment,No, I have more questions",,,2531,101,3740
+data,claude-3-5-sonnet,2,"I have Revolut, will  that work?",,,"{""appointment_requested"":null,""name"":null,""phone"":null,""email"":null,""appointment_date"":null,""ai_chat_flow"":""general"",""new_or_existing_patient"":null}",,954,102,3504
+conversation,claude-3-5-sonnet,3,What doctor works with you? What's his education?,"Dr. Mark Robson is our highly experienced foot doctor at Austin Podiatry, providing excellent podiatric care in the Austin area. Would you like to schedule an appointment to meet with Dr. Robson?","Yes, I'd like an appointment,No, I have more questions,Tell me more about services",,,2629,105,5186
+data,claude-3-5-sonnet,3,What doctor works with you? What's his education?,,,"{""appointment_requested"":null,""name"":null,""phone"":null,""email"":null,""appointment_date"":null,""ai_chat_flow"":""general"",""new_or_existing_patient"":null}",,1020,102,4184
+conversation,claude-3-5-sonnet,4,Is he able to adapt my old Rayban to my myopia?,"I apologize for the confusion, but it seems you're looking for an optometry office. We are actually All Eyes On Me Optometry, and we provide foot and ankle care services. I'd be happy to help you find a qualified optometrist. Would you like me to provide our podiatry services information instead?","Yes, tell me about podiatry services,No, thank you",,,2990,127,3542
+data,claude-3-5-sonnet,4,Is he able to adapt my old Rayban to my myopia?,,,"{""error"":""Failed to extract data from the conversation""}",,1087,248,9008
+conversation,claude-3-5-sonnet,5,"Yes, please","Here are some of our main podiatric services:
+
+• Ankle Sprains
+• Bunions
+• Diabetic Foot Care
+• Heel Spurs
+• Hammertoes
+• Plantar Fasciitis
+• Flat Feet
+• Corns & Calluses
+
+Would you like to request an appointment to discuss any of these services?","Yes, I'd like an appointment,No, just browsing,Tell me more about services",,,3022,164,3812
+data,claude-3-5-sonnet,5,"Yes, please",,,"{""appointment_requested"":null,""name"":null,""phone"":null,""email"":null,""appointment_date"":null,""ai_chat_flow"":""general"",""new_or_existing_patient"":null}",,1163,102,4107
+conversation,claude-3-5-sonnet,6,I suppose I am new,"Great! Thanks for letting me know you're a new patient. To help you get started, what is your name?",,,,2815,60,3428
+data,claude-3-5-sonnet,6,I suppose I am new,,,"{""appointment_requested"":null,""name"":null,""phone"":null,""email"":null,""appointment_date"":null,""ai_chat_flow"":""general"",""new_or_existing_patient"":""New""}",new_or_existing_patient,1257,112,3391
+conversation,claude-3-5-sonnet,7,Mario Postizo,"Thank you, Mario! What is the best number to reach you at?
+
+By submitting your phone number below, you understand we may send text messages to this number containing relevant information.",,,,2893,75,2662
+data,claude-3-5-sonnet,7,Mario Postizo,,,"{""appointment_requested"":true,""name"":""Mario Postizo"",""phone"":null,""email"":null,""appointment_date"":null,""ai_chat_flow"":""patient"",""new_or_existing_patient"":""New""}","name,new_or_existing_patient",1291,119,2749
+conversation,claude-3-5-sonnet,8,5556667777,Thank you for providing your phone number! What is the best email to reach you at?,,,,2946,54,3157
+data,claude-3-5-sonnet,8,5556667777,,,"{""error"":""Failed to extract data from the conversation""}",,1340,183,4326
+conversation,claude-3-5-sonnet,9,mario@postizo.com,"Thank you for providing your email! When would you like to schedule your appointment?
+
+Our office hours are:
+Monday-Friday: 8:30 AM - 5:00 PM
+Saturday-Sunday: Closed
+Daily lunch break: 12:00 PM - 1:00 PM","Tomorrow morning,Next week,This Friday",,,2942,137,4186
+data,claude-3-5-sonnet,9,mario@postizo.com,,,"{""error"":""Failed to extract data from the conversation""}",,1370,34,2254
+conversation,claude-3-5-sonnet,10,can it be today?,"Yes, we can see you today during our office hours (8:30 AM - 5:00 PM, with a lunch break from 12:00 PM - 1:00 PM).
+
+Please note - this is only a request... not a confirmed appointment. Our patient coordinator will reach out to you as soon as possible to confirm your appointment! 🙂
+
+If you have an emergency, please call 911. Thank you for choosing Austin Podiatry!
+
+Is there anything else I can help you with today?","No, that's all,Yes, I have a question",,,3354,182,4611
+data,claude-3-5-sonnet,10,can it be today?,,,"{""error"":""Failed to extract data from the conversation""}",,1446,67,6764
+conversation,claude-3-5-sonnet,11,monday at 9 is fine,"Perfect! I've noted your request for Monday at 9:00 AM.
+
+Please note - this is only a request... not a confirmed appointment. Our patient coordinator will reach out to you as soon as possible to confirm your appointment! 🙂
+
+If you have an emergency, please call 911. Thank you for choosing Austin Podiatry!
+
+Is there anything else I can help you with today?","No, thank you,Yes, I have a question",,,3146,153,5025
+data,claude-3-5-sonnet,11,monday at 9 is fine,,,"{""appointment_requested"":true,""name"":""Mario Postizo"",""phone"":""5556667777"",""email"":""mario@postizo.com"",""appointment_date"":""monday at 9"",""ai_chat_flow"":""patient"",""new_or_existing_patient"":""New""}",appointment_date,1573,127,5415
+conversation,claude-3-5-sonnet,12,Remind me please the address,"Our office is located at 1221 W Ben White Blvd. (@ Banister) Suite 212B, Austin, TX 78704. Is there anything else I can help you with today?","Yes, I need help,No, thank you",,,3342,102,3836
+data,claude-3-5-sonnet,12,Remind me please the address,,,"{""error"":""Failed to extract data from the conversation""}",,1672,113,5274
+conversation,claude-3-5-sonnet,1,What insurances do you accept,"Our office accepts a variety of HMOs, PPOs, and other health plans. Please note you may need a referral depending on your insurance carrier. Would you like to request an appointment so we can verify your specific insurance coverage?","Yes, I'd like an appointment,No, I have more questions",,,2491,115,3802
+data,claude-3-5-sonnet,1,What insurances do you accept,,,"{""error"":""Failed to extract data from the conversation""}",,877,67,2725
+conversation,claude-3-5-sonnet,2,"I have Revolut, will  that work?","I apologize, but I need to check with our office about whether we accept Revolut as a payment method. Currently, we accept Check, MasterCard, Visa, Discover and various insurance plans. Would you like to request an appointment so we can help verify payment options for you?","Yes, I'd like an appointment,No thanks,I have more questions",,,2519,125,3887
+data,claude-3-5-sonnet,2,"I have Revolut, will  that work?",,,"{""appointment_requested"":null,""name"":null,""phone"":null,""email"":null,""appointment_date"":null,""ai_chat_flow"":""general"",""new_or_existing_patient"":null}",,942,102,2494
+conversation,claude-3-5-sonnet,3,What doctor works with you? What's his education?,"Dr. Mark Robson is our highly experienced foot doctor in South Austin, providing comprehensive podiatric care in the Austin area. Would you like to schedule an appointment to meet with Dr. Robson?","Yes, I'd like an appointment,No, I have more questions,Tell me about services",,,2629,101,2890
+data,claude-3-5-sonnet,3,What doctor works with you? What's his education?,,,"{""appointment_requested"":null,""name"":null,""phone"":null,""email"":null,""appointment_date"":null,""ai_chat_flow"":""general"",""new_or_existing_patient"":null}",,1020,102,2195
+conversation,claude-3-5-sonnet,4,Is he able to adapt my old Rayban to my myopia?,"I apologize, but I notice there seems to be some confusion - we are a podiatry (foot doctor) practice, not an optometry office. We specialize in foot and ankle care, not eyewear or vision services. Would you like me to help you find information about our podiatry services instead?","Yes, tell me about podiatry services,No thanks",,,2987,124,3028
+data,claude-3-5-sonnet,4,Is he able to adapt my old Rayban to my myopia?,,,"{""appointment_requested"":null,""name"":null,""phone"":null,""email"":null,""appointment_date"":null,""ai_chat_flow"":""general"",""new_or_existing_patient"":null}",,1084,102,2445
+conversation,claude-3-5-sonnet,5,"Yes, please","Great! Let me tell you about our podiatry services. We offer comprehensive foot care including treatment for ankle sprains, bunions, heel pain, diabetic foot care, and many other foot-related conditions. Would you like to request an appointment to discuss your specific foot health needs?","Yes, I'd like an appointment,No thanks,Tell me more about services",,,3050,132,3053
+data,claude-3-5-sonnet,5,"Yes, please",,,"{""appointment_requested"":null,""name"":null,""phone"":null,""email"":null,""appointment_date"":null,""ai_chat_flow"":""general"",""new_or_existing_patient"":null}",,1159,102,2754
+conversation,claude-3-5-sonnet,6,I suppose I am new,Thank you for letting me know you're a new patient! We're excited to welcome you to our practice. What is your name?,,,,2787,70,1926
+data,claude-3-5-sonnet,6,I suppose I am new,,,"{""appointment_requested"":null,""name"":null,""phone"":null,""email"":null,""appointment_date"":null,""ai_chat_flow"":""general"",""new_or_existing_patient"":""New""}",new_or_existing_patient,1229,112,2511
+conversation,claude-3-5-sonnet,7,Mario Postizo,"Thank you, Mario! What is the best number to reach you at?
+
+By submitting your phone number below, you understand we may send text messages to this number containing relevant information.",,,,2868,75,2142
+data,claude-3-5-sonnet,7,Mario Postizo,,,"{""appointment_requested"":null,""name"":""Mario Postizo"",""phone"":null,""email"":null,""appointment_date"":null,""ai_chat_flow"":""general"",""new_or_existing_patient"":""New""}","name,new_or_existing_patient",1266,119,3234
+conversation,claude-3-5-sonnet,8,5556667777,Thank you for providing your phone number! What is the best email address to reach you at?,,,,2921,55,1950
+data,claude-3-5-sonnet,8,5556667777,,,"{""error"":""Failed to extract data from the conversation""}",,1315,29,2489
+conversation,claude-3-5-sonnet,9,mario@postizo.com,"Thank you for sharing your email, Mario! When would you like to schedule your appointment? Our office hours are:
+Monday-Friday: 8:30 AM - 5:00 PM
+Saturday-Sunday: Closed
+
+Please note we are closed daily between 12:00 PM - 1:00 PM for lunch.","Tomorrow morning,Next week,This Friday",,,2918,143,3233
+data,claude-3-5-sonnet,9,mario@postizo.com,,,"{""error"":""Failed to extract data from the conversation""}",,1346,137,3492
+conversation,claude-3-5-sonnet,10,can it be today?,"Yes, we can see you today during our office hours (8:30 AM - 5:00 PM, closed 12-1 PM for lunch).
+
+Please note - this is only a request... not a confirmed appointment. Our patient coordinator will reach out to you as soon as possible to confirm your appointment! 🙂
+
+If you have an emergency, please call 911. Thanks for choosing our practice!
+
+Is there anything else I can help you with today?","Yes, I have questions,No, thank you",,,3335,159,4020
+data,claude-3-5-sonnet,10,can it be today?,,,"{""error"":""Failed to extract data from the conversation""}",,1429,54,2311
+conversation,claude-3-5-sonnet,11,monday at 9 is fine,"Thank you for choosing Monday at 9:00 AM. Please note - this is only a request... not a confirmed appointment. Our patient coordinator will reach out to you as soon as possible to confirm your appointment! 🙂
+
+If you have an emergency, please call 911. Thanks for choosing our practice!
+
+Is there anything else I can help you with today?","No, thanks,I have another question,What services do you offer?",,,3116,147,3651
+data,claude-3-5-sonnet,11,monday at 9 is fine,,,"{""appointment_requested"":true,""name"":""Mario Postizo"",""phone"":""5556667777"",""email"":""mario@postizo.com"",""appointment_date"":""monday at 9"",""ai_chat_flow"":""patient"",""new_or_existing_patient"":""New""}",appointment_date,1543,133,2996
+conversation,claude-3-5-sonnet,12,Remind me please the address,"Our office is located at 1221 W Ben White Blvd. (@ Banister) Suite 212B, Austin, TX 78704. Is there anything else you need help with today?","Yes, I need help,No, thank you",,,3303,101,3075
+data,claude-3-5-sonnet,12,Remind me please the address,,,"{""error"":""Failed to extract data from the conversation""}",,1633,134,3512
+conversation,claude-3-5-sonnet,1,What insurances do you accept,"We accept a variety of HMOs, PPOs, and other health plans. Please call our office to verify acceptance of your specific insurance carrier. Some insurance carriers may require a referral. Would you like to request an appointment to discuss your insurance coverage and care options?","Yes, I'd like an appointment,No, just checking",,,2491,112,3064
+data,claude-3-5-sonnet,1,What insurances do you accept,,,"{""error"":""Failed to extract data from the conversation""}",,877,152,3798
+conversation,claude-3-5-sonnet,2,"I have Revolut, will  that work?","I apologize, but I'm not able to confirm if we accept Revolut specifically. For payment methods, we accept Check, MasterCard, Visa, and Discover. Please call our office to verify acceptance of specific payment methods. Would you like to request an appointment to discuss payment options?","Yes, I'd like an appointment,No, I have more questions,I'll call the office",,,2526,131,2806
+data,claude-3-5-sonnet,2,"I have Revolut, will  that work?",,,"{""appointment_requested"":null,""name"":null,""phone"":null,""email"":null,""appointment_date"":null,""ai_chat_flow"":""general"",""new_or_existing_patient"":null}",,949,102,2451
+conversation,claude-3-5-sonnet,3,What doctor works with you? What's his education?,Dr. Mark Robson is our experienced foot doctor at Austin Podiatry who works with patients to provide the best podiatric care in the Austin area. Would you like to schedule an appointment to meet with Dr. Robson?,"Yes, I'd like an appointment,No, I have more questions",,,2637,102,2871
+data,claude-3-5-sonnet,3,What doctor works with you? What's his education?,,,"{""appointment_requested"":null,""name"":null,""phone"":null,""email"":null,""appointment_date"":null,""ai_chat_flow"":""general"",""new_or_existing_patient"":null}",,1028,102,2300
+conversation,claude-3-5-sonnet,4,Is he able to adapt my old Rayban to my myopia?,"I apologize, but I think there's been a misunderstanding - we are Austin Podiatry, a foot and ankle care practice. We do not provide optometry or eyewear services. Would you like help finding treatment for any foot or ankle conditions?","Yes, I need foot care,No thanks,Tell me about your services",,,3002,119,2995
+data,claude-3-5-sonnet,4,Is he able to adapt my old Rayban to my myopia?,,,"{""appointment_requested"":null,""name"":null,""phone"":null,""email"":null,""appointment_date"":null,""ai_chat_flow"":""general"",""new_or_existing_patient"":null}",,1099,102,2605
+conversation,claude-3-5-sonnet,5,"Yes, please",Great! I'll help you with foot or ankle care. Would you like to request an appointment with our experienced podiatrist?,"Yes,No,I have more questions",,,3054,83,2147
+data,claude-3-5-sonnet,5,"Yes, please",,,"{""appointment_requested"":null,""name"":null,""phone"":null,""email"":null,""appointment_date"":null,""ai_chat_flow"":""general"",""new_or_existing_patient"":null}",,1163,102,2453
+conversation,claude-3-5-sonnet,6,I suppose I am new,Great! Thank you for letting me know you're a new patient. What is your name?,,,,2758,55,1741
+data,claude-3-5-sonnet,6,I suppose I am new,,,"{""appointment_requested"":null,""name"":null,""phone"":null,""email"":null,""appointment_date"":null,""ai_chat_flow"":""general"",""new_or_existing_patient"":""New""}",new_or_existing_patient,1200,112,2578
+conversation,claude-3-5-sonnet,7,Mario Postizo,"Nice to meet you, Mario! What is the best number to reach you at?
+
+By submitting your phone number below, you understand we may send text messages to this number containing relevant information.",,,,2831,77,2270
+data,claude-3-5-sonnet,7,Mario Postizo,,,"{""appointment_requested"":true,""name"":""Mario Postizo"",""phone"":null,""email"":null,""appointment_date"":null,""ai_chat_flow"":""patient"",""new_or_existing_patient"":""New""}",name,1229,110,2662
+conversation,claude-3-5-sonnet,8,5556667777,"Thank you for providing your phone number, Mario. What is the best email address to reach you at?",,,,2886,57,1821
+data,claude-3-5-sonnet,8,5556667777,,,"{""error"":""Failed to extract data from the conversation""}",,1280,26,1780
+conversation,claude-3-5-sonnet,9,mario@postizo.com,"Thank you for your email, Mario. When would you like to schedule your appointment?
+
+Our office hours are:
+Monday-Friday: 8:30 AM - 5:00 PM
+Saturday-Sunday: Closed
+Note: Office is closed daily from 12:00 PM - 1:00 PM for lunch","Tomorrow morning,Next week,This Friday",,,2885,143,3001
+data,claude-3-5-sonnet,9,mario@postizo.com,,,"{""error"":""Failed to extract data from the conversation""}",,1313,143,2821
+conversation,claude-3-5-sonnet,10,can it be today?,"Yes, we can see you today during our office hours (8:30 AM - 5:00 PM, except 12-1 PM lunch break). Please note - this is only a request... not a confirmed appointment. Our patient coordinator will reach out to you as soon as possible to confirm your appointment! 🙂 If you have an emergency, please call 911. Thanks for choosing Austin Podiatry! Is there anything else I can help you with today?","Yes, I have another question,No, thank you",,,3304,151,3574
+data,claude-3-5-sonnet,10,can it be today?,,,"{""error"":""Failed to extract data from the conversation""}",,1395,79,3190
+conversation,claude-3-5-sonnet,11,monday at 9 is fine,"Great choice! Please note - this is only a request... not a confirmed appointment. Our patient coordinator will reach out to you as soon as possible to confirm your appointment! 🙂 If you have an emergency, please call 911. Thanks for choosing Austin Podiatry! Is there anything else I can help you with today?","No thanks,I have another question,Thank you",,,3083,136,3144
+data,claude-3-5-sonnet,11,monday at 9 is fine,,,"{""appointment_requested"":true,""name"":""Mario Postizo"",""phone"":""5556667777"",""email"":""mario@postizo.com"",""appointment_date"":""monday at 9"",""ai_chat_flow"":""patient"",""new_or_existing_patient"":""New""}",appointment_date,1510,132,3641
+conversation,claude-3-5-sonnet,12,Remind me please the address,"Our office is located at 1221 W Ben White Blvd. (@ Banister) Suite 212B Austin, TX 78704. Is there anything else I can help you with today?","No, thanks,Yes, I have another question,Need directions",,,3262,97,2545
+data,claude-3-5-sonnet,12,Remind me please the address,,,"{""error"":""Failed to extract data from the conversation""}",,1592,215,4386
+conversation,claude-3-5-sonnet,1,What insurances do you accept,"Our office accepts a variety of HMOs, PPOs, and other health plans. Please contact our office to verify acceptance of your specific insurance carrier, as some may require a referral. Would you like to request an appointment to discuss your insurance coverage in more detail?","Yes, I'd like an appointment,No thanks,I have more questions",,,2491,119,3332
+data,claude-3-5-sonnet,1,What insurances do you accept,,,"{""error"":""Failed to extract data from the conversation""}",,877,109,2579
+conversation,claude-3-5-sonnet,2,"I have Revolut, will  that work?","I apologize, but I'm not able to confirm if we accept Revolut specifically. For the most accurate information about accepted payment methods and insurance plans, please contact our office directly. Would you like to request an appointment to discuss payment options in more detail?","Yes, I'd like to schedule,No, not right now",,,2526,111,2765
+data,claude-3-5-sonnet,2,"I have Revolut, will  that work?",,,"{""appointment_requested"":null,""name"":null,""phone"":null,""email"":null,""appointment_date"":null,""ai_chat_flow"":""general"",""new_or_existing_patient"":null}",,949,102,2397
+conversation,claude-3-5-sonnet,3,What doctor works with you? What's his education?,"Dr. Mark Robson is our highly experienced foot doctor at Austin Podiatry in South Austin, specializing in podiatric care and treating various foot conditions including bunions, ingrown toenails, and toenail fungus. Would you like to request an appointment to meet with Dr. Robson?","Yes, I'd like an appointment,No, I have more questions,Tell me more about services",,,2628,136,3784
+data,claude-3-5-sonnet,3,What doctor works with you? What's his education?,,,"{""appointment_requested"":null,""name"":null,""phone"":null,""email"":null,""appointment_date"":null,""ai_chat_flow"":""general"",""new_or_existing_patient"":null}",,1019,102,2136
+conversation,claude-3-5-sonnet,4,Is he able to adapt my old Rayban to my myopia?,"I apologize for any confusion, but All Eyes On Me Optometry appears to be incorrect. I am actually representing a podiatry (foot care) practice, not an optometry office. I cannot assist with eyewear or vision questions. Would you like to request an appointment to discuss any foot-related concerns?","Yes, I have foot concerns,No thanks",,,3010,113,2726
+data,claude-3-5-sonnet,4,Is he able to adapt my old Rayban to my myopia?,,,"{""appointment_requested"":null,""name"":null,""phone"":null,""email"":null,""appointment_date"":null,""ai_chat_flow"":""general"",""new_or_existing_patient"":null}",,1107,102,3916
+conversation,claude-3-5-sonnet,5,"Yes, please","Great! I'll be happy to help you schedule an appointment. First, could you tell me if you're a new or existing patient?","New patient,Existing patient",,,3073,80,3730
+data,claude-3-5-sonnet,5,"Yes, please",,,"{""appointment_requested"":true,""name"":null,""phone"":null,""email"":null,""appointment_date"":null,""ai_chat_flow"":""patient"",""new_or_existing_patient"":null}",appointment_requested,1182,106,2785
+conversation,claude-3-5-sonnet,6,I suppose I am new,"Thank you for letting me know you're a new patient! To help get you scheduled, what is your name?",,,,2779,66,2028
+data,claude-3-5-sonnet,6,I suppose I am new,,,"{""appointment_requested"":true,""name"":null,""phone"":null,""email"":null,""appointment_date"":null,""ai_chat_flow"":""patient"",""new_or_existing_patient"":""New""}",new_or_existing_patient,1221,112,2379
+conversation,claude-3-5-sonnet,7,Mario Postizo,"Thank you, Mario! What is the best number to reach you at?
+
+By submitting your phone number below, you understand we may send text messages to this number containing relevant information.",,,,2856,75,2546
+data,claude-3-5-sonnet,7,Mario Postizo,,,"{""appointment_requested"":true,""name"":""Mario Postizo"",""phone"":null,""email"":null,""appointment_date"":null,""ai_chat_flow"":""patient"",""new_or_existing_patient"":""New""}",name,1254,110,3048
+conversation,claude-3-5-sonnet,8,5556667777,Thank you for providing your phone number! What is the best email address to reach you at?,,,,2909,55,2427
+data,claude-3-5-sonnet,8,5556667777,,,"{""error"":""Failed to extract data from the conversation""}",,1303,23,2332
+conversation,claude-3-5-sonnet,9,mario@postizo.com,"Thank you for your email, Mario! When would you like to schedule your appointment?
+
+Our office hours are:
+Monday-Friday: 8:30 AM - 5:00 PM
+Saturday-Sunday: Closed
+Closed daily from 12:00 PM - 1:00 PM for lunch",,,,2906,119,7629
+data,claude-3-5-sonnet,9,mario@postizo.com,,,"{""error"":""Failed to extract data from the conversation""}",,1334,133,6682
+conversation,claude-3-5-sonnet,10,can it be today?,"Yes, we can help you today during our office hours (8:30 AM - 5:00 PM, closed 12-1 PM for lunch). Please note - this is only a request, not a confirmed appointment. Our patient coordinator will reach out to you as soon as possible to confirm your appointment! 🙂 If you have an emergency, please call 911. Thanks for choosing Austin Podiatry! Is there anything else I can help you with today?","No, thank you,Yes, I have a question",,,3322,159,3544
+data,claude-3-5-sonnet,10,can it be today?,,,"{""error"":""Failed to extract data from the conversation""}",,1413,85,2684
+conversation,claude-3-5-sonnet,11,monday at 9 is fine,"Thank you for your preferred date and time! Please note - this is only a request, not a confirmed appointment. Our patient coordinator will reach out to you as soon as possible to confirm your appointment! 🙂 If you have an emergency, please call 911. Thanks for choosing Austin Podiatry! Is there anything else I can help you with today?","No, thank you,I have another question",,,3101,131,3831
+data,claude-3-5-sonnet,11,monday at 9 is fine,,,"{""appointment_requested"":true,""name"":""Mario Postizo"",""phone"":""5556667777"",""email"":""mario@postizo.com"",""appointment_date"":""monday at 9"",""ai_chat_flow"":""patient"",""new_or_existing_patient"":""New""}",appointment_date,1528,133,3498
+conversation,claude-3-5-sonnet,12,Remind me please the address,"Our office is located at 1221 W Ben White Blvd. (@ Banister) Suite 212B, Austin, TX 78704. Would you like help with anything else today?","Yes, I need help,No, thank you",,,3286,100,3432
+data,claude-3-5-sonnet,12,Remind me please the address,,,"{""error"":""Failed to extract data from the conversation""}",,1616,141,4321
+conversation,claude-3-5-sonnet,1,What insurances do you accept,"Our office accepts a variety of HMOs, PPOs, and other health plans. However, you'll need to call our office to verify acceptance of your specific insurance carrier. Some insurance carriers may require a referral. Would you like to request an appointment to discuss your insurance coverage and eye care needs?","Yes, I'd like an appointment,No, just checking,I have more questions",,,2491,136,5647
+data,claude-3-5-sonnet,1,What insurances do you accept,,,"{""error"":""Failed to extract data from the conversation""}",,877,131,5618
+conversation,claude-3-5-sonnet,2,"I have Revolut, will  that work?","I apologize, but I can only see that we accept Check, MasterCard, Visa, Discover, and various insurance plans. To verify if Revolut is accepted, I recommend calling our office directly. Would you like to request an appointment to discuss payment options and eye care needs?","Yes, schedule appointment,No thanks,I have more questions",,,2533,119,3541
+data,claude-3-5-sonnet,2,"I have Revolut, will  that work?",,,"{""appointment_requested"":null,""name"":null,""phone"":null,""email"":null,""appointment_date"":null,""ai_chat_flow"":""general"",""new_or_existing_patient"":null}",,956,102,3211
+conversation,claude-3-5-sonnet,3,What doctor works with you? What's his education?,"Dr. Mark Robson is our experienced foot doctor at Austin Podiatry, providing the best podiatric care in the Austin area. Would you like to request an appointment to meet with Dr. Robson?","Yes, I'd like an appointment,Not right now,Tell me more",,,2643,100,4912
+data,claude-3-5-sonnet,3,What doctor works with you? What's his education?,,,"{""appointment_requested"":null,""name"":null,""phone"":null,""email"":null,""appointment_date"":null,""ai_chat_flow"":""general"",""new_or_existing_patient"":null}",,1034,102,3314
+conversation,claude-3-5-sonnet,4,Is he able to adapt my old Rayban to my myopia?,"I apologize, but I notice there seems to be a confusion - we are actually a podiatry practice specializing in foot and ankle care, not an optometry office. We cannot assist with eyewear or vision needs. Would you like help finding a foot doctor for any foot or ankle concerns?","Yes, I need a foot doctor,No thanks",,,3004,118,3508
+data,claude-3-5-sonnet,4,Is he able to adapt my old Rayban to my myopia?,,,"{""appointment_requested"":null,""name"":null,""phone"":null,""email"":null,""appointment_date"":null,""ai_chat_flow"":""general"",""new_or_existing_patient"":null}",,1101,102,3485
+conversation,claude-3-5-sonnet,5,"Yes, please","Great! Let me assist you with your foot care needs. Since you've expressed interest, would you like to request an appointment with our podiatrist?","Yes, I'd like an appointment,No, I have questions",,,3063,89,6075
+data,claude-3-5-sonnet,5,"Yes, please",,,"{""appointment_requested"":null,""name"":null,""phone"":null,""email"":null,""appointment_date"":null,""ai_chat_flow"":""general"",""new_or_existing_patient"":null}",,1172,102,4606
+conversation,claude-3-5-sonnet,6,I suppose I am new,Thank you for letting me know you're a new patient! We look forward to providing you with excellent foot care. What is your name?,,,,2772,71,2804
+data,claude-3-5-sonnet,6,I suppose I am new,,,"{""appointment_requested"":null,""name"":null,""phone"":null,""email"":null,""appointment_date"":null,""ai_chat_flow"":""general"",""new_or_existing_patient"":""New""}",new_or_existing_patient,1214,112,4446
+conversation,claude-3-5-sonnet,7,Mario Postizo,"Thank you, Mario! What is the best phone number to reach you at?
+
+By submitting your phone number below, you understand we may send text messages to this number containing relevant information.",,,,2854,76,5514
+data,claude-3-5-sonnet,7,Mario Postizo,,,"{""appointment_requested"":true,""name"":""Mario Postizo"",""phone"":null,""email"":null,""appointment_date"":null,""ai_chat_flow"":""patient"",""new_or_existing_patient"":""New""}",name,1252,110,3869
+conversation,claude-3-5-sonnet,8,5556667777,Thank you for providing your phone number. What is the best email address to reach you at?,,,,2908,55,2424
+data,claude-3-5-sonnet,8,5556667777,,,"{""error"":""Failed to extract data from the conversation""}",,1302,34,2057
+conversation,claude-3-5-sonnet,9,mario@postizo.com,"Thank you for providing your email address, Mario. When would you like to schedule your appointment?
+
+Our office hours are:
+Monday-Friday: 8:30 AM - 5:00 PM
+Saturday-Sunday: Closed
+(Office closed daily from 12:00 PM - 1:00 PM for lunch)","Tomorrow morning,Next week,This Friday",,,2905,143,8920
+data,claude-3-5-sonnet,9,mario@postizo.com,,,"{""error"":""Failed to extract data from the conversation""}",,1333,130,3365
+conversation,claude-3-5-sonnet,10,can it be today?,"Yes, we can see you today during our office hours (8:30 AM - 5:00 PM, closed 12-1 PM for lunch). Please note - this is only a request, not a confirmed appointment. Our patient coordinator will reach out to you as soon as possible to confirm your appointment! 🙂 If you have an emergency, please call 911. Thanks for choosing Austin Podiatry! Is there anything else I can help you with?","Yes, that's all,I have another question",,,3322,157,5333
+data,claude-3-5-sonnet,10,can it be today?,,,"{""error"":""Failed to extract data from the conversation""}",,1416,78,3735
+conversation,claude-3-5-sonnet,11,monday at 9 is fine,"Perfect! Please note - this is only a request, not a confirmed appointment. Our patient coordinator will reach out to you as soon as possible to confirm your appointment! 🙂 If you have an emergency, please call 911. Thanks for choosing Austin Podiatry! Is there anything else I can help you with?","No thanks,Yes, I have a question",,,3103,130,3577
+data,claude-3-5-sonnet,11,monday at 9 is fine,,,"{""appointment_requested"":true,""name"":""Mario Postizo"",""phone"":""5556667777"",""email"":""mario@postizo.com"",""appointment_date"":""monday at 9"",""ai_chat_flow"":""patient"",""new_or_existing_patient"":""New""}",appointment_date,1530,133,4124
+conversation,claude-3-5-sonnet,12,Remind me please the address,"We're located at 1221 W Ben White Blvd. (@ Banister) Suite 212B Austin, TX 78704. Is there anything else I can help you with?","Yes, I have a question,No, thank you",,,3280,100,4426
+data,claude-3-5-sonnet,12,Remind me please the address,,,"{""error"":""Failed to extract data from the conversation""}",,1610,163,3952
+conversation,claude-3-5-sonnet,1,What insurances do you accept,"Our office accepts a variety of HMOs, PPOs, and other health plans. Please note that some insurance carriers may require a referral. Would you like to request an appointment so we can verify your specific insurance coverage?","Yes, I'd like to request,No thanks,Tell me more",,,2491,116,4348
+data,claude-3-5-sonnet,1,What insurances do you accept,,,"{""error"":""Failed to extract data from the conversation""}",,877,69,2297
+conversation,claude-3-5-sonnet,2,"I have Revolut, will  that work?","I apologize, but I don't have specific information about Revolut acceptance. I recommend calling our office at (512) 447-4122 to verify coverage details. Would you like to request an appointment so we can help verify your coverage?","Yes, I'd like an appointment,No thanks,I have more questions",,,2517,116,4466
+data,claude-3-5-sonnet,2,"I have Revolut, will  that work?",,,"{""appointment_requested"":null,""name"":null,""phone"":null,""email"":null,""appointment_date"":null,""ai_chat_flow"":""general"",""new_or_existing_patient"":null}",,940,102,2848
+conversation,claude-3-5-sonnet,3,What doctor works with you? What's his education?,"Dr. Mark Robson is our experienced foot doctor at Austin Podiatry, providing the best podiatric care in the Austin area. Would you like to request an appointment to meet with Dr. Robson?","Yes, I'd like an appointment,No, I have more questions",,,2618,98,4109
+data,claude-3-5-sonnet,3,What doctor works with you? What's his education?,,,"{""appointment_requested"":null,""name"":null,""phone"":null,""email"":null,""appointment_date"":null,""ai_chat_flow"":""general"",""new_or_existing_patient"":null}",,1009,102,5308
+conversation,claude-3-5-sonnet,4,Is he able to adapt my old Rayban to my myopia?,"I apologize for the confusion, but I notice you're asking about eyewear services. We are actually Austin Podiatry, a foot and ankle care clinic, not an optometry office. Would you like me to help you schedule an appointment for any foot-related concerns?","Yes, I'd like an appointment,No thanks,Tell me about your services",,,2979,123,3742
+data,claude-3-5-sonnet,4,Is he able to adapt my old Rayban to my myopia?,,,"{""appointment_requested"":null,""name"":null,""phone"":null,""email"":null,""appointment_date"":null,""ai_chat_flow"":""general"",""new_or_existing_patient"":null}",,1076,102,3503
+conversation,claude-3-5-sonnet,5,"Yes, please","Great! I'll help you schedule an appointment. First, are you a new or an existing patient?","New patient,Existing patient",,,3034,80,2559
+data,claude-3-5-sonnet,5,"Yes, please",,,"{""appointment_requested"":true,""name"":null,""phone"":null,""email"":null,""appointment_date"":null,""ai_chat_flow"":""patient"",""new_or_existing_patient"":null}",appointment_requested,1143,112,4845
+conversation,claude-3-5-sonnet,6,I suppose I am new,"Thank you for letting me know. To help you schedule your appointment, what is your name?",,,,2733,55,3239
+data,claude-3-5-sonnet,6,I suppose I am new,,,"{""error"":""Failed to extract data from the conversation""}",,1175,123,3314
+conversation,claude-3-5-sonnet,7,Mario Postizo,"Thank you, Mario! What is the best number to reach you at?
+
+By submitting your phone number below, you understand we may send text messages to this number containing relevant information.",,,,2774,75,2428
+data,claude-3-5-sonnet,7,Mario Postizo,,,"{""appointment_requested"":true,""name"":""Mario Postizo"",""phone"":null,""email"":null,""appointment_date"":null,""ai_chat_flow"":""patient"",""new_or_existing_patient"":""New""}",name,1204,110,3299
+conversation,claude-3-5-sonnet,8,5556667777,Thank you for providing your phone number. What is the best email address to reach you at?,,,,2859,55,2238
+data,claude-3-5-sonnet,8,5556667777,,,"{""error"":""Failed to extract data from the conversation""}",,1253,26,1715
+conversation,claude-3-5-sonnet,9,mario@postizo.com,"Thank you for your email, Mario! When would you like to schedule your appointment?
+
+Our office hours are:
+Monday - Friday: 8:30 AM - 5:00 PM
+Saturday & Sunday: Closed
+Closed daily from 12:00 PM - 1:00 PM for lunch","Tomorrow morning,Next week,This Friday",,,2856,141,4140
+data,claude-3-5-sonnet,9,mario@postizo.com,,,"{""error"":""Failed to extract data from the conversation""}",,1284,134,4528
+conversation,claude-3-5-sonnet,10,can it be today?,"Yes, we can schedule you for today since it's within our office hours (8:30 AM - 5:00 PM). Please note - this is only a request, not a confirmed appointment. Our patient coordinator will reach out to you as soon as possible to confirm your appointment! 🙂 If you have an emergency, please call 911. Thanks for choosing our practice! Is there anything else I can help you with?","No, that's all,Yes, I have a question",,,3272,142,10022
+data,claude-3-5-sonnet,10,can it be today?,,,"{""error"":""Failed to extract data from the conversation""}",,1363,69,4825
+conversation,claude-3-5-sonnet,11,monday at 9 is fine,"Perfect! Please note - this is only a request, not a confirmed appointment. Our patient coordinator will reach out to you as soon as possible to confirm your appointment! 🙂 If you have an emergency, please call 911. Thanks for choosing our practice! Is there anything else I can help you with?","Yes, I have more questions,No, thank you",,,3041,121,8821
+data,claude-3-5-sonnet,11,monday at 9 is fine,,,"{""appointment_requested"":true,""name"":""Mario Postizo"",""phone"":""5556667777"",""email"":""mario@postizo.com"",""appointment_date"":""monday at 9"",""ai_chat_flow"":""patient"",""new_or_existing_patient"":""New""}",appointment_date,1468,126,7545
+conversation,claude-3-5-sonnet,12,Remind me please the address,"Our office is located at 1221 W Ben White Blvd. (@ Banister) Suite 212B, Austin, TX 78704. Is there anything else I can assist you with today?","Yes, I have questions,No thanks",,,3215,100,3173
+data,claude-3-5-sonnet,12,Remind me please the address,,,"{""error"":""Failed to extract data from the conversation""}",,1545,97,2872
+conversation,claude-3-5-sonnet,1,What insurances do you accept,"Our office accepts a variety of HMOs, PPOs, and other health plans. Please note that some insurance carriers may require a referral. We'll need to verify acceptance of your specific insurance carrier. Would you like to request an appointment so we can help verify your insurance coverage?","Yes, I'd like an appointment,No, just checking,More questions",,,2491,129,3192
+data,claude-3-5-sonnet,1,What insurances do you accept,,,"{""error"":""Failed to extract data from the conversation""}",,877,117,3196
+conversation,claude-3-5-sonnet,2,"I have Revolut, will  that work?","I apologize, but I'll need to have our office verify if we accept Revolut as a form of payment. Please note that we accept Visa, MasterCard, Discover, Check and various insurance plans. Would you like to request an appointment so we can help verify your payment options?","Yes, I'd like an appointment,No thanks,I have more questions",,,2529,126,3665
+data,claude-3-5-sonnet,2,"I have Revolut, will  that work?",,,"{""appointment_requested"":null,""name"":null,""phone"":null,""email"":null,""appointment_date"":null,""ai_chat_flow"":""general"",""new_or_existing_patient"":null}",,952,102,605383
+conversation,claude-3-5-sonnet,3,What doctor works with you? What's his education?,"Dr. Mark Robson is our experienced foot doctor at All Eyes On Me Optometry's South Austin location. He provides expert podiatric care and specializes in treating foot pain, bunions, ingrown toenails, and other foot problems. Would you like to schedule an appointment to meet with Dr. Robson?","Yes, I'd like an appointment,No, I have more questions,Tell me more about services",,,2640,138,4932
+data,claude-3-5-sonnet,3,What doctor works with you? What's his education?,,,"{""appointment_requested"":null,""name"":null,""phone"":null,""email"":null,""appointment_date"":null,""ai_chat_flow"":""general"",""new_or_existing_patient"":null}",,1031,102,3450
+conversation,claude-3-5-sonnet,4,Is he able to adapt my old Rayban to my myopia?,"I apologize, but I notice there seems to be some confusion. We are actually a podiatry (foot doctor) practice, not an optometry office. We specialize in foot and ankle care, not eyewear or vision services. Would you like help finding the right type of foot care services instead?","Yes, tell me about foot care,No, thank you",,,3024,114,4039
+data,claude-3-5-sonnet,4,Is he able to adapt my old Rayban to my myopia?,,,"{""appointment_requested"":null,""name"":null,""phone"":null,""email"":null,""appointment_date"":null,""ai_chat_flow"":""general"",""new_or_existing_patient"":null}",,1121,102,2856
+conversation,claude-3-5-sonnet,5,"Yes, please",Great! Let me help you with foot care services. Would you like to request an appointment with our podiatrist?,"Yes, I'd like an appointment,No, just more information",,,3085,83,3478
+data,claude-3-5-sonnet,5,"Yes, please",,,"{""appointment_requested"":null,""name"":null,""phone"":null,""email"":null,""appointment_date"":null,""ai_chat_flow"":""general"",""new_or_existing_patient"":null}",,1194,102,2892
+conversation,claude-3-5-sonnet,6,I suppose I am new,Perfect! Thank you for letting me know you're a new patient. What is your name?,,,,2787,55,2091
+data,claude-3-5-sonnet,6,I suppose I am new,,,"{""appointment_requested"":null,""name"":null,""phone"":null,""email"":null,""appointment_date"":null,""ai_chat_flow"":""general"",""new_or_existing_patient"":""New""}",new_or_existing_patient,1229,112,3434
+conversation,claude-3-5-sonnet,7,Mario Postizo,"Nice to meet you, Mario! What is the best number to reach you at?
+
+By submitting your phone number below, you understand we may send text messages to this number containing relevant information.",,,,2860,77,2750
+data,claude-3-5-sonnet,7,Mario Postizo,,,"{""appointment_requested"":true,""name"":""Mario Postizo"",""phone"":null,""email"":null,""appointment_date"":null,""ai_chat_flow"":""patient"",""new_or_existing_patient"":""New""}","name,new_or_existing_patient",1258,119,2510
+conversation,claude-3-5-sonnet,8,5556667777,"Thank you for providing your phone number, Mario. What is the best email address to reach you at?",,,,2915,57,1942
+data,claude-3-5-sonnet,8,5556667777,,,"{""error"":""Failed to extract data from the conversation""}",,1309,26,1627
+conversation,claude-3-5-sonnet,9,mario@postizo.com,"Thank you for providing your email, Mario. When would you like to schedule your appointment?
+
+Our office hours are:
+Monday: 8:30 AM - 5:00 PM
+Tuesday: 8:30 AM - 5:00 PM
+Wednesday: 8:30 AM - 5:00 PM
+Thursday: 8:30 AM - 5:00 PM
+Friday: 8:30 AM - 5:00 PM
+Closed Saturday and Sunday","Tomorrow morning,Next week,This Friday",,,2914,191,4417
+data,claude-3-5-sonnet,9,mario@postizo.com,,,"{""error"":""Failed to extract data from the conversation""}",,1342,143,3046
+conversation,claude-3-5-sonnet,10,can it be today?,"Yes, we can arrange an appointment for today during our office hours (8:30 AM - 5:00 PM, closed 12-1 PM for lunch). Please note - this is only a request, not a confirmed appointment. Our patient coordinator will reach out to you as soon as possible to confirm your appointment! 🙂 If you have an emergency, please call 911. Thanks for choosing our practice! Is there anything else I can help you with?","No, thanks,Yes, I have a question",,,3373,163,3768
+data,claude-3-5-sonnet,10,can it be today?,,,"{""error"":""Failed to extract data from the conversation""}",,1463,69,2035
+conversation,claude-3-5-sonnet,11,monday at 9 is fine,"Great choice! Please note - this is only a request, not a confirmed appointment. Our patient coordinator will reach out to you as soon as possible to confirm your appointment! 🙂 If you have an emergency, please call 911. Thanks for choosing our practice! Is there anything else I can help you with?","No, thank you,Yes, I have a question,Need directions",,,3149,137,3833
+data,claude-3-5-sonnet,11,monday at 9 is fine,,,"{""appointment_requested"":true,""name"":""Mario Postizo"",""phone"":""5556667777"",""email"":""mario@postizo.com"",""appointment_date"":""monday at 9"",""ai_chat_flow"":""patient"",""new_or_existing_patient"":""New""}",appointment_date,1576,126,2816
+conversation,claude-3-5-sonnet,12,Remind me please the address,"Our office is located at 1221 W Ben White Blvd. (@ Banister) Suite 212B, Austin, TX 78704. Is there anything else you would like to know?","Yes, I have questions,No thanks",,,3324,106,2615
+data,claude-3-5-sonnet,12,Remind me please the address,,,"{""appointment_requested"":true,""name"":""Mario Postizo"",""phone"":""5556667777"",""email"":""mario@postizo.com"",""appointment_date"":""monday at 9"",""ai_chat_flow"":""patient"",""new_or_existing_patient"":""New""}",,1654,122,3116
+conversation,claude-3-5-sonnet,1,What insurances do you accept,"We accept a variety of HMOs, PPOs, and other health plans. Please call our office to verify acceptance of your specific insurance carrier. Some insurance carriers may require a referral. Would you like to request an appointment so we can help verify your insurance coverage?","Yes, I'd like an appointment,No, just checking,Need more information",,,2491,128,3867
+data,claude-3-5-sonnet,1,What insurances do you accept,,,"{""error"":""Failed to extract data from the conversation""}",,877,67,2363
+conversation,claude-3-5-sonnet,2,"I have Revolut, will  that work?","I apologize, but I don't have specific information about Revolut acceptance. Please call our office at 512-XXX-XXXX to verify if we can accept this payment method. Would you like to request an appointment so we can help verify your payment options?","Yes, I'd like an appointment,No thanks,Call office",,,2526,116,2845
+data,claude-3-5-sonnet,2,"I have Revolut, will  that work?",,,"{""appointment_requested"":null,""name"":null,""phone"":null,""email"":null,""appointment_date"":null,""ai_chat_flow"":""general"",""new_or_existing_patient"":null}",,949,102,2219
+conversation,claude-3-5-sonnet,3,What doctor works with you? What's his education?,"Dr. Mark Robson is our experienced foot doctor at Austin Podiatry, providing podiatric care in the Austin area. Would you like to schedule an appointment with Dr. Robson?","Yes, I'd like an appointment,No, I have more questions,Tell me more about services",,,2632,118,2856
+data,claude-3-5-sonnet,3,What doctor works with you? What's his education?,,,"{""appointment_requested"":null,""name"":null,""phone"":null,""email"":null,""appointment_date"":null,""ai_chat_flow"":""general"",""new_or_existing_patient"":null}",,1023,102,2061
+conversation,claude-3-5-sonnet,4,Is he able to adapt my old Rayban to my myopia?,"I apologize, but I think there may be some confusion. We are Austin Podiatry, a foot and ankle care practice. We do not provide optometry or vision services. For eyewear and vision needs, I recommend consulting an optometrist. Would you like help finding a podiatrist for any foot or ankle concerns?","Yes, I need a podiatrist,No thanks",,,2989,127,3135
+data,claude-3-5-sonnet,4,Is he able to adapt my old Rayban to my myopia?,,,"{""error"":""Failed to extract data from the conversation""}",,1086,211,4908
+conversation,claude-3-5-sonnet,5,"Yes, please","Great! To help you better, are you a new or existing patient?","New patient,Existing patient",,,3024,74,2036
+data,claude-3-5-sonnet,5,"Yes, please",,,"{""appointment_requested"":null,""name"":null,""phone"":null,""email"":null,""appointment_date"":null,""ai_chat_flow"":""general"",""new_or_existing_patient"":null}",,1165,102,2498
+conversation,claude-3-5-sonnet,6,I suppose I am new,Perfect! I'll help you get started. What is your name?,,,,2749,50,1739
+data,claude-3-5-sonnet,6,I suppose I am new,,,"{""appointment_requested"":true,""name"":null,""phone"":null,""email"":null,""appointment_date"":null,""ai_chat_flow"":""patient"",""new_or_existing_patient"":""New""}",new_or_existing_patient,1191,112,2895
+conversation,claude-3-5-sonnet,7,Mario Postizo,"Nice to meet you Mario! In order to help you schedule an appointment, what is the best number to reach you at?
+
+By submitting your phone number below, you understand we may send text messages to this number containing relevant information.",,,,2817,85,2382
+data,claude-3-5-sonnet,7,Mario Postizo,,,"{""appointment_requested"":true,""name"":""Mario Postizo"",""phone"":null,""email"":null,""appointment_date"":null,""ai_chat_flow"":""patient"",""new_or_existing_patient"":""New""}",name,1215,110,2852
+conversation,claude-3-5-sonnet,8,5556667777,"Thank you for providing your phone number, Mario. What is the best email address to reach you at?",,,,2880,57,1931
+data,claude-3-5-sonnet,8,5556667777,,,"{""error"":""Failed to extract data from the conversation""}",,1274,27,1371
+conversation,claude-3-5-sonnet,9,mario@postizo.com,"Thank you for providing your email, Mario. When would you like to schedule your appointment?
+
+Our office hours are:
+Monday to Friday: 8:30 AM - 5:00 PM
+Saturday & Sunday: Closed
+Note: Office is closed daily from 12:00 PM to 1:00 PM for lunch","Tomorrow,Next week,Next month",,,2879,144,3475
+data,claude-3-5-sonnet,9,mario@postizo.com,,,"{""error"":""Failed to extract data from the conversation""}",,1307,25,2997
+conversation,claude-3-5-sonnet,10,can it be today?,"Yes, we can see you today during our office hours (8:30 AM - 5:00 PM, except 12-1 PM lunch break). Please note - this is only a request... not a confirmed appointment. Our patient coordinator will reach out to you as soon as possible to confirm your appointment! 🙂 If you have an emergency, please call 911. Thanks for choosing our practice! Is there anything else I can help you with today?","No, thank you,Yes, I have a question",,,3299,163,6303
+data,claude-3-5-sonnet,10,can it be today?,,,"{""error"":""Failed to extract data from the conversation""}",,1390,64,5014
+conversation,claude-3-5-sonnet,11,monday at 9 is fine,"Perfect! Please note - this is only a request... not a confirmed appointment. Our patient coordinator will reach out to you as soon as possible to confirm your appointment! 🙂 If you have an emergency, please call 911. Thanks for choosing our practice! Is there anything else I can help you with today?","No thanks,Yes, I have a question",,,3075,128,3100
+data,claude-3-5-sonnet,11,monday at 9 is fine,,,"{""appointment_requested"":true,""name"":""Mario Postizo"",""phone"":""5556667777"",""email"":""mario@postizo.com"",""appointment_date"":""monday at 9"",""ai_chat_flow"":""patient"",""new_or_existing_patient"":""New""}",appointment_date,1502,126,4026
+conversation,claude-3-5-sonnet,12,Remind me please the address,"Our office is located at 1221 W Ben White Blvd. (@ Banister) Suite 212B, Austin, TX 78704. Is there anything else I can help you with today?","Yes, I have another question,No, thank you",,,3250,103,4928
+data,claude-3-5-sonnet,12,Remind me please the address,,,"{""error"":""Failed to extract data from the conversation""}",,1580,48,4872
+conversation,claude-3-5-sonnet,1,What insurances do you accept,"Our office accepts a variety of HMOs, PPOs, and other health plans. Please contact our office to verify acceptance of your specific insurance carrier, as some may require a referral. Would you like to request an appointment to discuss coverage and treatment options?","Yes, I'd like an appointment,No, just checking,I have more questions",,,2491,126,4668
+data,claude-3-5-sonnet,1,What insurances do you accept,,,"{""error"":""Failed to extract data from the conversation""}",,877,130,3210
+conversation,claude-3-5-sonnet,2,"I have Revolut, will  that work?","I apologize, but I would need to verify if we accept Revolut specifically. Please call our office at (512) 445-7070 to confirm acceptance of your payment method. In the meantime, would you like to request an appointment?","Yes, I'd like an appointment,No, thanks,Tell me more",,,2524,124,3916
+data,claude-3-5-sonnet,2,"I have Revolut, will  that work?",,,"{""appointment_requested"":null,""name"":null,""phone"":null,""email"":null,""appointment_date"":null,""ai_chat_flow"":""general"",""new_or_existing_patient"":null}",,947,102,3909
+conversation,claude-3-5-sonnet,3,What doctor works with you? What's his education?,"Dr. Mark Robson is our highly experienced foot doctor at Austin Podiatry, providing the best podiatric care in the Austin area. Would you like to request an appointment to meet with Dr. Robson?","Yes, I'd like an appointment,No thanks,Tell me more",,,2626,110,4349
+data,claude-3-5-sonnet,3,What doctor works with you? What's his education?,,,"{""appointment_requested"":null,""name"":null,""phone"":null,""email"":null,""appointment_date"":null,""ai_chat_flow"":""general"",""new_or_existing_patient"":null}",,1017,102,2840
+conversation,claude-3-5-sonnet,4,Is he able to adapt my old Rayban to my myopia?,"I apologize for the confusion, but it seems you're looking for an optometry office. We are actually All Eyes On Me Podiatry - a foot and ankle care clinic. We do not provide vision or eyewear services. Would you like help finding a local optometrist for your Rayban glasses?","Yes, please,No, thank you",,,2988,120,4262
+data,claude-3-5-sonnet,4,Is he able to adapt my old Rayban to my myopia?,,,"{""appointment_requested"":null,""name"":null,""phone"":null,""email"":null,""appointment_date"":null,""ai_chat_flow"":""general"",""new_or_existing_patient"":null}",,1085,102,2820
+conversation,claude-3-5-sonnet,5,"Yes, please","I apologize, but as a podiatry office, we cannot assist with eyewear or vision services. I recommend searching for a local optometrist in your area who can help with your Rayban glasses. Would you like me to take your contact information so we can refer you to a vision specialist?","Yes, I'd like a referral,No thanks",,,3051,121,3785
+data,claude-3-5-sonnet,5,"Yes, please",,,"{""appointment_requested"":null,""name"":null,""phone"":null,""email"":null,""appointment_date"":null,""ai_chat_flow"":""general"",""new_or_existing_patient"":null}",,1160,102,3409
+conversation,claude-3-5-sonnet,6,I suppose I am new,"Great, thank you for letting me know you're a new patient! To help get you started, could you please tell me your name?",,,,2793,71,3467
+data,claude-3-5-sonnet,6,I suppose I am new,,,"{""appointment_requested"":null,""name"":null,""phone"":null,""email"":null,""appointment_date"":null,""ai_chat_flow"":""general"",""new_or_existing_patient"":""New""}",new_or_existing_patient,1235,112,3896
+conversation,claude-3-5-sonnet,7,Mario Postizo,"Thank you, Mario! To help you better, what is the best phone number to reach you at?
+
+By submitting your phone number below, you understand we may send text messages to this number containing relevant information.",,,,2875,81,3677
+data,claude-3-5-sonnet,7,Mario Postizo,,,"{""appointment_requested"":null,""name"":""Mario Postizo"",""phone"":null,""email"":null,""appointment_date"":null,""ai_chat_flow"":""general"",""new_or_existing_patient"":""New""}","name,new_or_existing_patient",1273,119,4036
+conversation,claude-3-5-sonnet,8,5556667777,"Thank you for providing your phone number, Mario! What is the best email address where we can reach you?",,,,2934,58,2279
+data,claude-3-5-sonnet,8,5556667777,,,"{""error"":""Failed to extract data from the conversation""}",,1328,60,2819
+conversation,claude-3-5-sonnet,9,mario@postizo.com,"Thank you for providing your email, Mario! When would you like to schedule your appointment?
+
+Our office hours are:
+Monday-Friday: 8:30 AM - 5:00 PM
+Saturday-Sunday: Closed
+Closed daily from 12:00 PM - 1:00 PM for lunch","Tomorrow morning,Next week,This Friday",,,2934,141,5414
+data,claude-3-5-sonnet,9,mario@postizo.com,,,"{""error"":""Failed to extract data from the conversation""}",,1362,138,3916
+conversation,claude-3-5-sonnet,10,can it be today?,"Yes, we can schedule you for today during our office hours (8:30 AM - 5:00 PM, except 12-1 PM lunch break). Please note - this is only a request, not a confirmed appointment. Our patient coordinator will reach out to you as soon as possible to confirm your appointment! 🙂
+
+If you have a medical emergency, please call 911. Thank you for choosing Austin Podiatry! Is there anything else I can help you with today?","No, thanks,Yes, I have a question",,,3351,157,5889
+data,claude-3-5-sonnet,10,can it be today?,,,"{""error"":""Failed to extract data from the conversation""}",,1442,78,3112
+conversation,claude-3-5-sonnet,11,monday at 9 is fine,"Perfect! Please note - this is only a request, not a confirmed appointment. Our patient coordinator will reach out to you as soon as possible to confirm your appointment! 🙂
+
+If you have a medical emergency, please call 911. Thank you for choosing Austin Podiatry! Is there anything else I can help you with today?","No, thank you,Yes, I have a question,Need help with something else",,,3133,141,3898
+data,claude-3-5-sonnet,11,monday at 9 is fine,,,"{""appointment_requested"":true,""name"":""Mario Postizo"",""phone"":""5556667777"",""email"":""mario@postizo.com"",""appointment_date"":""monday at 9"",""ai_chat_flow"":""patient"",""new_or_existing_patient"":""New""}",appointment_date,1560,133,3986
+conversation,claude-3-5-sonnet,12,Remind me please the address,"Our office is located at: 1221 W Ben White Blvd. (@ Banister) Suite 212B Austin, TX 78704. Is there anything else I can help you with today?","No, thanks,Yes, I have a question,Directions please",,,3313,106,4630
+data,claude-3-5-sonnet,12,Remind me please the address,,,"{""error"":""Failed to extract data from the conversation""}",,1643,126,3948
+conversation,claude-3-5-sonnet,1,What insurances do you accept,"Our office accepts a variety of HMOs, PPOs, and other health plans. We accept the following payment types: Check, MasterCard, Visa, and Discover. Please note that some insurance carriers may require a referral. Would you like to request an appointment so we can verify your specific insurance coverage?","Yes, I'd like an appointment,No, just checking",,,2491,123,4016
+data,claude-3-5-sonnet,1,What insurances do you accept,,,"{""error"":""Failed to extract data from the conversation""}",,877,70,4671
+conversation,claude-3-5-sonnet,2,"I have Revolut, will  that work?","I apologize, but I don't see Revolut listed among our accepted payment methods. We accept Check, MasterCard, Visa, and Discover cards. Would you like to request an appointment and discuss payment options with our staff?","Yes, I'd like an appointment,No, thanks,What are my payment options?",,,2537,123,3599
+data,claude-3-5-sonnet,2,"I have Revolut, will  that work?",,,"{""appointment_requested"":null,""name"":null,""phone"":null,""email"":null,""appointment_date"":null,""ai_chat_flow"":""general"",""new_or_existing_patient"":null}",,960,102,5861
+conversation,claude-3-5-sonnet,3,What doctor works with you? What's his education?,"Dr. Mark Robson is our highly experienced foot doctor at Austin Podiatry, providing top podiatric care in the Austin area. Would you like to schedule an appointment to meet with Dr. Robson?","Yes, I'd like an appointment,No, I have more questions",,,2636,98,4740
+data,claude-3-5-sonnet,3,What doctor works with you? What's his education?,,,"{""appointment_requested"":null,""name"":null,""phone"":null,""email"":null,""appointment_date"":null,""ai_chat_flow"":""general"",""new_or_existing_patient"":null}",,1027,102,2919
+conversation,claude-3-5-sonnet,4,Is he able to adapt my old Rayban to my myopia?,"I apologize, but I notice there may be some confusion. All Eyes On Me Optometry is a podiatry practice specializing in foot and ankle care, not vision or eyewear services. We focus on treating conditions like bunions, heel pain, diabetic foot care, and other foot-related issues. Would you like help finding the right podiatric care services for your needs?","Yes, tell me about foot services,No thanks",,,2997,138,4263
+data,claude-3-5-sonnet,4,Is he able to adapt my old Rayban to my myopia?,,,"{""error"":""Failed to extract data from the conversation""}",,1094,243,7771
+conversation,claude-3-5-sonnet,5,"Yes, please","Great! Let me help you with scheduling a podiatry appointment. First, I need to know - are you a new or an existing patient?","New patient,Existing patient",,,3044,82,2544
+data,claude-3-5-sonnet,5,"Yes, please",,,"{""appointment_requested"":null,""name"":null,""phone"":null,""email"":null,""appointment_date"":null,""ai_chat_flow"":""general"",""new_or_existing_patient"":null}",,1185,102,3321
+conversation,claude-3-5-sonnet,6,I suppose I am new,"Perfect! Thank you for letting me know you're a new patient. To help schedule your appointment, could you please tell me your name?",,,,2784,71,2700
+data,claude-3-5-sonnet,6,I suppose I am new,,,"{""error"":""Failed to extract data from the conversation""}",,1226,124,3062
+conversation,claude-3-5-sonnet,7,Mario Postizo,"Thank you, Mario! To proceed with scheduling your appointment, what is the best number to reach you at?
+
+By submitting your phone number below, you understand we may send text messages to this number containing relevant information.",,,,2834,89,2727
+data,claude-3-5-sonnet,7,Mario Postizo,,,"{""appointment_requested"":true,""name"":""Mario Postizo"",""phone"":null,""email"":null,""appointment_date"":null,""ai_chat_flow"":""patient"",""new_or_existing_patient"":""New""}",name,1264,110,2582
+conversation,claude-3-5-sonnet,8,5556667777,"Thank you for providing your phone number, Mario! What is the best email address to reach you at?",,,,2926,57,1835
+data,claude-3-5-sonnet,8,5556667777,,,"{""error"":""Failed to extract data from the conversation""}",,1320,50,2139
+conversation,claude-3-5-sonnet,9,mario@postizo.com,"Thank you for providing your email, Mario! When would you like to schedule your appointment?
+
+Our office hours are:
+Monday-Friday: 8:30 AM - 5:00 PM
+Saturday-Sunday: Closed
+Note: Office is closed daily from 12:00 PM - 1:00 PM for lunch","Tomorrow morning,Next week,This Friday",,,2925,144,3476
+data,claude-3-5-sonnet,9,mario@postizo.com,,,"{""error"":""Failed to extract data from the conversation""}",,1353,137,3058
+conversation,claude-3-5-sonnet,10,can it be today?,"Yes, we can see you today during our office hours (8:30 AM - 5:00 PM, except 12-1 PM lunch break). Please note - this is only a request... not a confirmed appointment. Our patient coordinator will reach out to you as soon as possible to confirm your appointment! 🙂 If you have an emergency, please call 911. Thanks for choosing Austin Podiatry! Is there anything else I can help you with today?","No, thank you,Yes, I have a question",,,3345,166,3663
+data,claude-3-5-sonnet,10,can it be today?,,,"{""error"":""Failed to extract data from the conversation""}",,1436,65,2358
+conversation,claude-3-5-sonnet,11,monday at 9 is fine,"Thank you for selecting Monday at 9:00 AM. Please note - this is only a request... not a confirmed appointment. Our patient coordinator will reach out to you as soon as possible to confirm your appointment! 🙂 If you have an emergency, please call 911. Thanks for choosing Austin Podiatry! Is there anything else I can help you with today?","Yes, I have another question,No, thank you",,,3124,137,3068
+data,claude-3-5-sonnet,11,monday at 9 is fine,,,"{""appointment_requested"":true,""name"":""Mario Postizo"",""phone"":""5556667777"",""email"":""mario@postizo.com"",""appointment_date"":""monday at 9"",""ai_chat_flow"":""patient"",""new_or_existing_patient"":""New""}",appointment_date,1551,132,3201
+conversation,claude-3-5-sonnet,12,Remind me please the address,"Our office is located at 1221 W Ben White Blvd. (@ Banister) Suite 212B, Austin, TX 78704. Is there anything else I can help you with today?","Yes, I have another question,No, thank you",,,3313,110,3067
+data,claude-3-5-sonnet,12,Remind me please the address,,,"{""error"":""Failed to extract data from the conversation""}",,1643,189,5987
