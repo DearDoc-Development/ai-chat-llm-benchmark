@@ -29,6 +29,9 @@ The conversation was processed using different LLMs, including but not limited t
 - Gemini 1.5 Flash
 - Claude 3.5 Sonnet
 
+Other models have been tested as well, but not evaluated:
+- GPT 4o Mini
+
 ### Data Collection
 
 For each interaction step, the following data were collected:
@@ -48,12 +51,16 @@ For each interaction step, the following data were collected:
   - **Input Tokens**: The number of tokens in the user's input.
   - **Output Tokens**: The number of tokens in the chatbot's response.
   - **Execution Time**: Time taken by the model to generate a response.
+ 
+The raw files are available here: [Raw files](./raw_files)
 
 ### Manual Analysis
 
 A manual analysis was performed for each interaction step to assess the performance metrics comprehensively. This involved reviewing the chatbot's responses and the extracted data against the expected outcomes based on the user's inputs.
 
 The evaluated metrics are available here: [Evaluation Metrics](./metrics.md)
+
+The results of the evaluation is available in Google Sheets: [LLM Benchmark Analysis](https://docs.google.com/spreadsheets/d/1jHPdlUuSo6NuTzmqVu0GO5Q4CYqO-RV01-IJ3LbIqsc/edit?usp=sharing)
 
 ## Sample Data Overview
 
