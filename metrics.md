@@ -43,18 +43,6 @@ This metric assesses how relevant and helpful the chatbot's suggestion chips are
 
 ---
 
-## Error Rate in Data Extraction (0-5 scale)
-
-This metric evaluates the chatbot's accuracy in extracting and handling data provided by the user.
-
-- **5: Perfect** - All data correctly extracted.
-- **4: Good** - Minor extraction errors (80-99% accuracy).
-- **3: Adequate** - Some extraction errors (60-79% accuracy).
-- **2: Poor** - Frequent extraction errors (40-59% accuracy).
-- **1: Very Poor** - Most extractions failed (1-39% accuracy).
-- **0: Complete Failure** - Failure in extraction (0% accuracy).
-
----
 
 ## Hallucination Detection (0-5 scale)
 
