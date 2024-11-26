@@ -89,4 +89,7 @@ By conducting this experiment and analyzing the collected data, we aim to:
 - Provide insights into the selection of appropriate LLMs for specific chatbot functionalities.
 - Enhance the overall user experience by optimizing response relevance, accuracy, and efficiency.
 
-## The results are available here: [Experiment Results](./results.md)
+## Results
+
+The main results are available here: [Experiment Results](./results.md)
+We also created an analysis of the suggestions offered by AI since is a pure create task: [Suggesion Results](./suggestions.md)
